@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    background-color: #CCC;
+}
+
+nav {
+    padding: 15px;
+    background-color: #888;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul li{
+    color: rgba(14, 158, 62, 0.781);
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: rgba(53, 43, 43, 0.555)
+}
