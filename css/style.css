@@ -1,0 +1,17 @@
+ul{
+    list-style: square;
+    color:red
+}
+
+a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+
+/*Escolher qual tag quer editar e cham-la para editar */
+/*tag = sletor > bloco de instruções > propriedade:valor; logo outra propriedade:valor */
