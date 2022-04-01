@@ -6,21 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title> <!-- TODO DOCUMENTO TEM QUE TER TITULO -->
 
-        <!-- Por intern ser mandatorio, o efeito em cascata afeta todas as tags ul no documento -->
-        <!-- CSS INTERNO -->
-            <style>
-                ul{
-                    list-style: square;
-                }
-            </style>          
-        <!-- CSS INTERNO -->
+        <!-- CSS EXTERNO -->
+        <!-- A Tag link so pode ser utilizada dentro do <head></head> -->
+        <!-- Link faz relacao com o tipo de midea a ser carregada-->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- CSS EXTERNO -->
 
+        <!-- FAVICON  coloca o icone na pagina -->
+        <link rel="icon" href="./img/alvocomflecha.png">
+        <!-- FAVICON -->
+        
     </head> 
     <body> <!-- SÓ PODE TER UM body-->
         <nav>
             <a href="#">Serviços WEB</a>
             <!--Utilizando o comando ul>li*4>a[href="#"][target="_blank"]>{TESTE} ele cria tudo abaixo-->
-            <ul style="list-style: circle;"> <!--LISTA--> 
+            <ul> <!--Lista--> <!-- NAO USAR STYLE -> style="list-style: circle;"--> 
                 <li><a href="#sobre" target="_blank">Sobre</a></li>
                 <li><a href="#servicos" target="_blank">Serviços</a></li>
                 <li><a href="#imagens" target="_blank">Imagens</a></li>
