@@ -1,0 +1,8 @@
+ul{
+    list-style: square;
+    color: red;
+}
+a:link{
+    text-decoration: none;
+    color: red;
+}
