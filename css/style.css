@@ -1,0 +1,54 @@
+/* GRUPO FONTS */
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(31, 31, 31, 0.568);
+    color: #2631c4;
+}
+
+#topo h1,p{
+    padding: 1px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 60px;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+a:hover{
+    font-size: large;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    color: #2631c4;
+    
+}
+
+
+i:hover{
+    color: alice;
+}
+
+
+/* 
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+
+
+
+
+/* 
+
+* ul{
+list-style: none;
+color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+} */
