@@ -49,7 +49,27 @@
         background-color: #f8efef;
     }
 
-    
+    a{
+        text-decoration: none;
+        color: #ed145b;
+    }
+
+    /*
+      Grupo  cores
+    */
+
+    /*
+      Pseudo classes
+    */
+
+    a:hover{
+        color: #0000ff;
+        border: #ff0000 solid 2px;
+    }
+
+    /*
+      Pseudo classes
+    */
 
 
 
