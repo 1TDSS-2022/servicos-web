@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0%;
   background-color: #ccc;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav {
@@ -11,13 +12,60 @@ nav {
   text-align: center;
   box-shadow: 0 4px 8px rgba(53, 38, 38, 0.712);
   border: 1px solid;
-  margin: 10px;
+  margin: 0 10px 10px 10px;
+  animation: container-appear 1s ease-out forwards;
+  height: 30vh;
+  background-image: linear-gradient(to right, rgba(135, 106, 106, 0.5), rgba(81, 40, 40, 0.887));
+    background-size: cover;
+}
+
+@keyframes container-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header{
+  text-align: center;
+  height: 70vh;
+  margin: 200px, auto;
+  width: 100%;
+}
+
+header h1 {
+  color: rgb(122, 153, 8);
+  font-weight: 500;
+}
+.header--text{
+  padding: 15px;
+  text-align: justify;
+  width: 50%;
+  height: auto;
+  font-size: 26px;
+  box-shadow: 2px 7px 14px rgba(39, 100, 180, 0.788);
+  margin-left: 20px;
+}
+
+.more--img {
+  padding: 10px;
+  font-size: 23px;
+  color: rgb(122, 153, 8);
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 50px;
+  font-weight: 600;
   letter-spacing: 5px;
+  background: linear-gradient(to right, rgb(56, 77, 237), rgba(38, 239, 32, 0.969)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul {
@@ -30,18 +78,26 @@ ul {
 }
 
 ul li {
-  color: rgba(14, 158, 62, 0.781);
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 28px; 
+  transition: all 0.2s;
+}
+
+ul li:hover{
+  font-size: 32px;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: rgb(122, 153, 8);
+  padding: 5px;
+  box-shadow: 2px 7px 14px rgba(39, 100, 180, 0.788);
+ 
 }
 
 a:hover {
   color: rgba(53, 43, 43, 0.555);
+
 }
 
 .services,
@@ -72,6 +128,10 @@ img {
   width: 40%;
   box-shadow: 2px 7px 14px rgba(39, 100, 180, 0.788);
 }
+
+/* img:hover {
+
+} */
 
 /* img:last-child {
   margin-bottom: 40px;
