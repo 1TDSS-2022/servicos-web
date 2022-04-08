@@ -1,9 +1,55 @@
-ul{
-    list-style: square;
-    color: red;
-}
+    
+    @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
+    
+    
+    body{
+        font-family: 'Oswald', sans-serif;
+    }
 
-a{
-    text-decoration: none;
-    color: red;
-}
+    #topo h1{
+            font-family: 'Nunito', sans-serif;
+            border: 2px solid #000000;
+            text-align:center c
+          
+    }
+
+    #topo p {
+        border: 2px solid #000000;
+        letter-spacing: 2px;
+        font-style: italic ;  
+    }
+    #topo a{
+        border: 2px solid #000000    
+    }
+    #topo p span{
+        color: red;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    .texto-css{
+        color: red;
+        font-weight: 700;
+        text-decoration: underline;
+        font-family: 'Asap', sans-serif; 
+    }
+
+
+
+    /* 
+    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    */
+
+    /*
+      Grupo  cores
+    */
+    
+    body{
+        background-color: #f8efef;
+    }
+
+    
+
+
+
