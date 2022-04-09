@@ -1,17 +1,58 @@
-ul{
-    list-style: square;
-    color:red
+/*
+    Grupo Fontes
+    Familia de fontes, pé da fonte= serifadas ideal paramuito texto pois não cansa a visão.
+*/
+
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+    Grupo Fontes
+*/
+
+
+body{
+    font-family: 'Oswald' , sans-serif;
+    
+}
+
+#topo h1{
+    text-align: center;
+    font-family: "Nunito" , sans-serif;
+    border: 2xp solid #000000
+    
+}
+#topo p {
+    border: 2px solid #000000;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+#topo a{
+    border: 2px solid #000000;
+}
+
+.texto-css{
+    color:crimson;
+    font-weight: 700;
+    text-decoration: line-through;
+    font-family: 'Asap', sans-serif;
+}
+/*
+    Grupo Cores
+*/
+
+body{
+    background-color: #291414;
+    /*background-color: rgba(0, 255, 0 0.55)*/
 }
 
 a{
     text-decoration: none;
+    color: #ED145A;
+}
+a:hover{
+    color:aqua;
+    border: #ff0000 solid 2px;
 }
 
-a{
-    text-decoration: none;
-    color: red;
-}
-
-
-/*Escolher qual tag quer editar e cham-la para editar */
-/*tag = sletor > bloco de instruções > propriedade:valor; logo outra propriedade:valor */
