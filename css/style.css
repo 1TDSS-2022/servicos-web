@@ -1,10 +1,50 @@
-        
-    ul{
-        list-style: square;
-        color: red;
+/* 
+    GRUPO FONTES
+*/
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    a:link{
+    #topo h1{
+        font-family: 'Times New Roman', Times, serif;
+        border: 2pt solid #000000;
+        text-align: center;
+    }
+
+    #topo p{
+        border: 2px solid #000000;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+
+    #topo a{
+        border: 2px solid #000000;
+    }
+
+    .texto-css{
+        color: #ff0000;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+/* 
+    GRUPO FONTES
+*/
+
+
+
+
+
+
+
+/*
+ul{
+        list-style: square;
+        color: red;
+}
+
+a:link{
         text-decoration: none;
         color: red;  
-    }
+}
+*/
