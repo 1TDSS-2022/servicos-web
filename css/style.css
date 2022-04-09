@@ -1,12 +1,21 @@
+
+    /* o css nao suporta html, portanto a tag style nao pode ser colocada, porem o import sim */
+     @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
+
 /* 
     GRUPO FONTES
+
+    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
 */
     body{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Nunito', sans-serif;
     }
 
     #topo h1{
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Oswald', serif;
         border: 2pt solid #000000;
         text-align: center;
     }
@@ -28,10 +37,13 @@
     }
 
 /* 
-    GRUPO FONTES
+    GRUPO CORES
 */
 
-
+    body{
+        background-color: rgba(175, 84, 84, 0.705);
+        background-color: rgb(254, 236, 255,0.55);
+    }
 
 
 
