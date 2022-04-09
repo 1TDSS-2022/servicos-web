@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Hind+Vadodara:wght@300&family=Nunito+Sans:wght@700&family=Oswald:wght@700&display=swap');
+
+
+/*
 ul {
     list-style: square;
     color: red;
@@ -6,4 +10,63 @@ ul {
 a {
     text-decoration: none;
     color: red;
+}
+*/
+
+/*
+Grupo de fontes
+*/
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#topo h1{
+    border: 2px solid #000 ;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#topo p{
+    border: 2px solid #000 ;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+#topo a{
+    border: 2px solid #000 ;
+}
+
+.texto-css {
+   color: red ;
+   font-weight: 700;
+   text-decoration: underline;
+   font-family: 'Asap', sans-serif;
+}
+
+/*
+GRUPO FONTES
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/*
+GRUPO CORES
+
+*/
+
+body {
+    background-color: #33c91f9f;
+    /*background-color: rgb(0, 255, 0);*/
+}
+
+a{
+    text-decoration: none;
+    color: #ED145B;
+}
+
+a:hover{
+    color: #0000FF;
+    border: #ff0000 solid 2px;
+    
 }
