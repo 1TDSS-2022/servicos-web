@@ -16,8 +16,13 @@ a {
 /*
 Grupo de fontes
 */
+html{
+    font-size: 20px;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
 
 #topo h1{
@@ -56,7 +61,7 @@ GRUPO CORES
 */
 
 body {
-    background-color: #33c91f9f;
+    background-color: #cad1c99f;
     /*background-color: rgb(0, 255, 0);*/
 }
 
@@ -67,6 +72,29 @@ a{
 
 a:hover{
     color: #0000FF;
-    border: #ff0000 solid 2px;
+    border: #ff0000 double 2px;
+}
+
+h2{
+    /*text-align: center;*/
+    /*margin-left: 0px;*/
+    margin: 0 0 0 50%;
+    border-spacing: 2px;
+    border-color:#0000FF ;
+    /*border: solid 2px;*/
+    position: static;
+}
+#p-over{
+    overflow: hidden;
+    height: 16px;
+}
+
+#bg{
+    color:white;
+    background-image: url("../img/fundo-pc.jpg");
     
 }
+
+/*
+    PSEUDO CLASSES
+*/
