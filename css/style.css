@@ -10,8 +10,19 @@
     font-family: 'Oswald', sans-serif;
 
 */
+
+    html{
+        font-size: 20px;
+    }
+
+
     body{
+        background-image: url(../img/cidade.jpg);
+        background-repeat: no-repeat; /* -> deixa a imagem acima sem repetição */
+        background-size: 400px; /* background-size: cover -> estica do tamanho do display */
+        background-position: top;
         font-family: 'Nunito', sans-serif;
+        font-size: 16px;
     }
 
     #topo h1{
@@ -51,14 +62,39 @@
     }
 
 /*
-    PSEUDO
+    PSEUDO CLASSES
 */
 
   a:hover{
       color: #0000ff;
       font-size: x-large solid 2px;
-      border: #0000ff 2px;
+      border: #0000ff double 10px;
   }  
+
+  /* O h2 vai puxar as configs da tag acima
+        se colocar a rem, ele é mais generico, puxa a config acima
+        se colocar em, ele é mais privado, não puxa  */
+ h2{
+     /* margin-left: 50% -> deixa a margem no centro da pagina */
+    margin: 0 0 0 50% ; /* margin 100px -> aplica 100 pixel de todos os lados */
+    /*border-top: dotted*/;
+    border-color: navy;
+    border-width: 2px;
+    /*font-size: 1px;*/
+ }
+
+ #p-over{
+    overflow: hidden;
+    /*overflow: scroll;*/
+    height: 20px;
+ }
+
+ #bg{ 
+    color: #ffffff; ;     
+    /* ../ -> volta a pasta */
+     background-image: url("../img/fundo-pc.jpg");
+     
+ }
 
 
 /*
