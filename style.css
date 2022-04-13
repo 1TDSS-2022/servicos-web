@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0%;
   background-color: #ccc;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 nav {
@@ -13,10 +13,14 @@ nav {
   box-shadow: 0 4px 8px rgba(53, 38, 38, 0.712);
   border: 1px solid;
   margin: 0 10px 10px 10px;
-  animation: container-appear 1s ease-out forwards;
+  animation: container-appear 1.5s ease-out forwards;
   height: 30vh;
-  background-image: linear-gradient(to right, rgba(135, 106, 106, 0.5), rgba(81, 40, 40, 0.887));
-    background-size: cover;
+  background-image: linear-gradient(
+    to right,
+    rgba(135, 106, 106, 0.5),
+    rgba(81, 40, 40, 0.887)
+  );
+  background-size: cover;
 }
 
 @keyframes container-appear {
@@ -31,10 +35,10 @@ nav {
   }
 }
 
-header{
+header {
   text-align: center;
   height: 70vh;
-  margin: 200px, auto;
+  margin: 100px, auto;
   width: 100%;
 }
 
@@ -42,7 +46,7 @@ header h1 {
   color: rgb(122, 153, 8);
   font-weight: 500;
 }
-.header--text{
+.header--text {
   padding: 15px;
   text-align: justify;
   width: 50%;
@@ -50,6 +54,29 @@ header h1 {
   font-size: 26px;
   box-shadow: 2px 7px 14px rgba(39, 100, 180, 0.788);
   margin-left: 20px;
+}
+
+section {
+  text-align: center;
+  width: 100%;
+  margin-top: -150px;
+  margin-bottom: 150px;
+}
+
+.about--text {
+  color: rgb(122, 153, 8);
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.section--text {
+  padding: 15px;
+  text-align: justify;
+  width: 50%;
+  height: auto;
+  font-size: 26px;
+  box-shadow: 2px 7px 14px rgba(39, 100, 180, 0.788);
+  margin-left: 45%;
 }
 
 .more--img {
@@ -65,8 +92,12 @@ header h1 {
   transition: all 0.2s ease-in-out;
 }
 
-.title:hover{
-  background: linear-gradient(to right, rgb(56, 77, 237), rgba(38, 239, 32, 0.969)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.title:hover {
+  background: linear-gradient(
+    to right,
+    rgb(56, 77, 237),
+    rgba(38, 239, 32, 0.969)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -83,11 +114,11 @@ ul {
 
 ul li {
   letter-spacing: 5px;
-  font-size: 28px; 
+  font-size: 28px;
   transition: all 0.2s;
 }
 
-ul li:hover{
+ul li:hover {
   font-size: 32px;
   color: #fff;
 }
@@ -101,8 +132,7 @@ a {
 }
 
 a:hover {
-  color: white
-
+  color: white;
 }
 
 .services,
@@ -147,6 +177,7 @@ img {
   text-align: center;
   height: 60vh;
   flex-direction: column;
+  margin-bottom: -100px;
 }
 .contato h2 {
   font-weight: 600;
@@ -182,7 +213,7 @@ img {
   padding: 5px;
   width: 50px;
   height: 50px;
-  transition: all 0.2s;
+  transition: all 0.1s;
   cursor: pointer;
 }
 
@@ -199,8 +230,55 @@ img {
   transition: font-size 0.2s;
 }
 
-.contato-text:hover {
-}
+/* .contato-text:hover {
+} */
 
 footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  padding: 10px;
+  margin-bottom: 15px;
+  /* border-radius: 10%; */
+  margin-left: 15px;
+  color: rgb(22, 21, 21);
+  animation: button-back 3s ease-in;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+@keyframes button-back {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+    transform: translateY(-1.5rem);
+  }
+
+  75% {
+    opacity: 0.75;
+    transform: scale(1.2);
+  }
+
+  95% {
+    opacity: 0.85;
+    transform: translateY(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-text:not(:last-child) {
+  margin-right: 10px;
+  font-size: 18px;
 }
