@@ -3,8 +3,13 @@
 /*
     GRUPO FONTES
 */
+html{
+    font-size: 20px;
+}
+
     body{
         font-family: 'Oswald', sans-serif;
+        font-size: 16px;
     }
 
     #topo h1 {
@@ -41,7 +46,7 @@ font-family: 'Oswald', sans-serif;
 */
   
 body{
-    background-color: #ffa70054;
+    background-color: #66c2c554;
     /*background-color: rgba(0, 255, 0,0.55);*/
 }
 
@@ -61,8 +66,36 @@ a{
 
 a:hover{
     color: #0000FF;
-    border: #ff0000 solid 2px;
+    border: #ff0000 double 1px;
+
 }
+
+h2{
+    
+    text-align: center;
+    border-top: solid;
+    border-color: #000000;
+    border-bottom: solid;
+    border-bottom-color: #000000;
+}
+
+#div1{
+    text-align: center;
+}
+
+#div2{
+    text-align: center;
+}
+
+#div3{
+    text-align: center;
+}
+
+#div4{
+    text-align: center;
+}
+
+
 
 /*
     PSEUDO CLASSES
