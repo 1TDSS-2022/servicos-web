@@ -70,7 +70,7 @@ body{
 
 a {
     text-decoration: none;
-    color: darkred;
+    color: rgb(255, 0, 149);
 }
 
 
@@ -84,7 +84,13 @@ PSEUDO CLASSES
 a:hover{
     color: #00ff;
     font-size: x-large;
-    border: red solid 2px;
+    border: red dotted 2px;
+}
+
+h2{
+    border-top: dotted ;
+    border-color: blue;
+    border-width: 2px;
 }
 /*
 PSEUDO CLASSES
