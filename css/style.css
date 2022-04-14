@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
+
+/*
+    GRUPO FONTES
+*/
+    body{
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #topo h1 {
+        font-family: 'Nunito', sans-serif;
+        border: 2px solid #000000;
+        text-align: center;
+    } 
+    #topo p {
+        border: 2px solid #000000;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+
+    #topo a{
+        border: 2px solid #000000;
+    }
+
+    .texto-css{
+        color: #ffffff;
+        font-weight: 700;
+        text-decoration: underline;
+        font-family: 'Asap', sans-serif;
+    }
+
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+    GRUPO FONTES
+*/
+
+/*
+    GRUPO CORES
+*/
+  
+body{
+    background-image: linear-gradient(94deg, #333333, white) ;
+    /*background-color: rgba(0, 255, 0,0.55);*/
+}
+
+a{
+    text-decoration: none;
+    color: #ED145B;
+}
+
+/*
+    GRUPO CORES
+*/
+
+/*
+    PSEUDO CLASSES
+
+*/
+
+a:hover{
+    font-size: large;
+    color: #ED145B;
+    border: #ffffff double 3px;
+}
+
+h3{
+
+    border-top: dotted;
+    border-color: #ffffff;
+    border-width: 2px;
+
+}
+
+/*
+    PSEUDO CLASSES
+*/
+
+
+
+/*
+    Comentário em CSS
+*/
+
+/*
+ul{
+    list-style: square;
+    color:red;
+}
+
+a{
+    text-decoration: none; 
+    color:red;
+}
+*/
+
