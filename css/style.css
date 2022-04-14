@@ -5,8 +5,18 @@
 /*
  GRUPO FONTES
 */
+html{
+    font-size: 20px;
+}
+
 body{
+    background-image: url("../img/comunicao.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: top;
+    background-attachment: fixed;
     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
 
 #topo h1{
@@ -48,7 +58,7 @@ body{
 }
 a{
     text-decoration: nome;
-    color: #ED145B;
+    color: rgb(237, 20, 91);
 }
 
 /*
@@ -61,9 +71,27 @@ a{
 
 a:hover{
     color: #0000ff;
-    border: #ff0000 solid 2px;
+    border: #ff0000 double 2px;
 }
 
+h2{
+    
+    margin:0 0 0 50%;
+    border-color: #0000ff;
+    border-width: 2px;
+
+}
+
+#p-over{
+    overflow: hidden;
+    height: 20px;
+}
+
+#bg{
+    color: #fff;
+    background-image: url("../img/fundo-pc.jpg");
+    
+}
 /*
     PSEUDOCORES
 */
