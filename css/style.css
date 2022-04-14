@@ -5,8 +5,18 @@
     GRUPO FONTES
 */
 
+html{
+    font-size: 20px;
+}
+
 body{
+    background-image: url(../img/eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 #topo h1{
@@ -37,17 +47,42 @@ body{
 */
 
 body{
-    background-color: #d6d3395b;
+    background-color: #1f6cd15b;
 }
 
 a{
     color: #ED145B;
 }
 
+/* 
+Pseudo Classes
+*/
+
 a:hover{
     color: #0000FF;
-    border: #ff0000 solid 2px;
+    border: #ff0000 double 10px;
 }
+
+h2{
+    /*margin-left: 50%;*/
+    margin:0 0 0 50%;
+    border-color: #0000FF;
+    border-spacing: 2px;
+    font-size: 2rem;
+}
+
+#p-over{
+    overflow: hidden;
+    height: 20px;
+}
+
+#bg{
+    color: #fff;
+    background-image: url("../img/fundo-pc.jpg");
+}
+/* 
+Pseudo Classes
+*/
 
 
 /*
