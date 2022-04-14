@@ -5,10 +5,19 @@
 /*
 Grupo fontes
 */
+html {
+    font-size: 20px;
+
+}
 
 body{
     font-family: 'Oswald', sans-serif;
-
+    font-size: 16px;
+    background-image: url("../img/eventos.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px ;
+    background-position: top ;
+    background-attachment: fixed ;
 }
 #topo h1{
     font-family: 'Nunito', sans-serif;
@@ -31,6 +40,10 @@ body{
     font-family: 'Asap', sans-serif;
 }
 
+#bg{
+    color: white;
+    background-image: url('../img/fundo-pc.jpg');
+}
 /*
 font-family: 'Oswald', sans-serif;
 font-family: 'Nunito', sans-serif;
@@ -88,9 +101,16 @@ a:hover{
 }
 
 h2{
+    margin:0 0 0 45%;
+    /*margin-left: 45% ;
     border-top: dotted ;
     border-color: blue;
-    border-width: 2px;
+    border-width: 2px;*/
+}
+
+#p-over{
+    overflow: auto;
+    height: 100px;
 }
 /*
 PSEUDO CLASSES
