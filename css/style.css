@@ -90,7 +90,8 @@
  }
 
  #bg{ 
-    color: #ffffff; ;     
+    color: #ffffff; ;
+    position: absolute;
     /* ../ -> volta a pasta */
      background-image: url("../img/fundo-pc.jpg");
      
