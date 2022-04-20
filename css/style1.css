@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: brown;
+    width: 100%;
+    display: inline-block;
+    padding: 10% 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 34px;
+}
+<!-- Lado esquerdo equivale a Top e Bottom, Ladp direito ao Right e Left --!>
