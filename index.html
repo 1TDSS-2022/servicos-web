@@ -5,8 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
+
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
+<!-- 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
+        </style> -->
+
+        <!-- CSS EXTERNO -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- CSS EXTERNO -->
+        <!-- FAVICON -->
+        <link rel="icon" href="./img/mail.png">
+        <!-- FAVICON -->
+        
     </head> 
     <body>
+        
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -20,9 +37,9 @@
         <header id="topo">
             <h1>Equipe de Ponta</h1>
             <p>
-                Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
-                Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
-                Segurança da Informação também é uma especialidade que dominamos.
+                Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
+                <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação <span class="texto-css">também</span> é uma especialidade que dominamos.
             </p>
             <a href="#servicos">Ver mais...</a>
         </header>
@@ -30,7 +47,7 @@
         <section id="sobre">
             <h2>Sobre</h2>
             <p>
-                A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                A empresa <small class="texto-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
                 Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
             <a href="#contato">Contrate Agora</a>
@@ -68,22 +85,42 @@
         </section>
         
         <section id="contato">
-            <h2>Fale Conosco</h2>
+            
+            <div>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>CONTATO</legend>
+                        <div>
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="nmClienteId">Telefone</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por <span>PF0670</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
+    
+    </body>
+</html>
+
+
+
+    <!-- <h2>Fale Conosco</h2>
             <div>
                 <img src="./img/tel.png" alt="Telefone">
-                <p><a href="tel:1194948817">(11) 98734-4534</a></p>
+                <p><a href="tel:11987344534">(11) 98734-4534</a></p>
             </div>
             <div>
                 <img src="./img/mail.png" alt="Envelope">
-                <p><a href="mailto:rm94275@fiap.com.br">rm94275@fiap.com.br</a></p>
-            </div>
-        </section>
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div> -->
         
-        <footer>
-            <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>rm94275</span></p>
-            <p>Todos os diteitos reservados. 2022&copy;</p>
-        </footer>
-
-    </body>
-</html>
