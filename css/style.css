@@ -71,3 +71,42 @@ a{
     text-decoration: none;
     color: red;
 } */
+
+/* css no form */
+
+form{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+fieldset{
+    background-image: linear-gradient(124deg, rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.616));
+}
+
+form input{
+    display: block;
+    margin: 1% 0 ;
+    border-radius: 5px;
+    border: solid 2px rgb(180, 180, 180);
+    font-size: 1em;
+}
+
+form input[type=text], input[type=Tel], input[type=email]{
+    height: 40px;
+    max-width: 100%;
+    width: 100%;
+    ;
+}
+
+form input[type=submit], input[type=reset]{
+    background-image: linear-gradient(25deg, #5483df, #0269fb);
+    display: inline;
+    color: white;
+    height: 35px;
+    margin: 7px 13px 3px 12%;
+    max-width: 30%;
+    width: 100%;
+}
+
+
+/* css no form */
