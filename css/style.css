@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 90;
     box-sizing: border-box;
 }
 
@@ -24,3 +24,41 @@ nav a{
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
 }
+
+/* CSS NO FORM */
+
+    form{
+        font-size: 16px;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+
+    form input{
+        display: block;
+        margin: 1% 0;
+        border-radius: 5px;
+        border: solid 2px rgb(0, 0, 0) ;
+    }
+
+    form input[type=text],input[type=tel],input[type=email]{
+        height: 50px;
+        max-width: 70%;
+        width: 100%;
+    }
+
+    form input[type=submit],input[type=reset]{
+        display: inline;
+        height: 25px;
+        max-width: 40%;
+        width: 100%;
+        margin: 0 0 0 5%;
+        background-color: #ccc;
+        color:#000000;
+        font-size: 1.1em;
+    }
+
+    form fieldset{
+        border: 2px double #000000;
+    }
+
+
+/* CSS NO FORM */

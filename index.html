@@ -103,10 +103,45 @@
         </section>
 
         <section id="contato">
-            <h2>Fale Conosco</h2>
+
+            <div>
+                <form action="./index.html" method="get">
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <div>
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu Telefone">
+                        </div>
+                        <div>
+                            <label for="emailClienteId">E-mail</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu E-mail">
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        <footer>            
+            <a href="#topo">Voltar ao topo</a>
+            <p>Desenvolvido por <span>rm93038</span></p>            
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
+
+    </body>
+</html>
+
+<!--
+    <h2>Fale Conosco</h2>
             <div>
                 <img src="./img/tel.png" alt="Telefone">
-                <!--Coloca-se o href e o tel para referenciar o telefone-->
+                !!-- Coloca-se o href e o tel para referenciar o telefone --!
                 <p><a href="tel:1199999-9999">(11) 99999-9999</a></p>
             </div>
             <div>
@@ -118,14 +153,14 @@
 
                 <div>
                     <form action="index.html" method="POST">
-                        <!-- action -> aqui é o metodo que controla o http, na qual transmite as informações-->
+                        !-- action -> aqui é o metodo que controla o http, na qual transmite as informações--
                         <fieldset>
                             <legend>LOGIN</legend>
                             <div>
                                 <label for="nmUserId">Usuário: </label>
-                                <!-- se clicar em cima de usuario, ele seleciona o input -->
+                                !-- se clicar em cima de usuario, ele seleciona o input --
                                 <input type="text" name="nmUser" id="nmUserId" placeholder=" Insira o seu Usuário" required>
-                                <!-- required não deixa o usuario inserir nada-->
+                                !-- required não deixa o usuario inserir nada--
                             </div>
                             <div>
                                 <label for="userPass">Senha: </label>
@@ -138,15 +173,5 @@
                     </form>
                 </div>
 
-            </div>
-
-        </section>
-
-        <footer>            
-            <a href="#topo">Voltar ao topo</a>
-            <p>Desenvolvido por <span>rm93038</span></p>            
-            <p>Todos os direitos reservados. 2022&copy;</p>
-        </footer>
-
-    </body>
-</html>
+            </div> 
+-->
