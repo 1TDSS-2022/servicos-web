@@ -89,8 +89,8 @@
         </section>
 
         <section id="contato">
-            <h2>Fale Conosco</h2>
-            <div>
+           <!-- <h2>Fale Conosco</h2>-->
+           <!-- <div>
                 <img src="./img/tel.png" alt="Telefone.">
                 <p>
                     <a href="tel:11987344534">(11) 98734-4534 </a>
@@ -115,7 +115,7 @@
                             </div>
 
                             <div>
-                                <label for="userPassId">Sennha</label>
+                                <label for="userPassId">Senha</label>
                                 <input type="password" name="userPass" id="userPassId" placeholder="Digite a senha" required>
                             </div>
 
@@ -129,7 +129,34 @@
 
             </div>
 
+        </section>-->
+        
+          <div>
+            <form action="./index.html" method="get">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div>
+                        <label for="nmClienteId">Nome</label>
+                        <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="telClienteId">Telefone</label>
+                        <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
+                    </div>
+                    <div>
+                        <label for="emailClienteId">E-mail</label>
+                        <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu E-mail">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>  
         </section>
+        
 
         <footer>
             <a href="#topo">Voltar</a>
