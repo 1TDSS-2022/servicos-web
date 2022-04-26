@@ -97,7 +97,7 @@ form{
         display: block;
         margin: 1% 0;
         border-radius: 5px;
-        border: solid 2px #CCC;
+        border: solid 2px #ccc;
     }
 
     form input[type=text],input[type=tel],input[type=email]{
@@ -115,10 +115,9 @@ form{
         background-color: #0000FF;
         color: #FFFFFF;
         font-size: 1.1em;
-
     }
 
-    FORM fieldset{
+    form fieldset{
         border: 2px double #ff0000;
     }
 
