@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
-
         <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
@@ -13,17 +12,14 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
         </style> -->
-
         <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- CSS EXTERNO -->
         <!-- FAVICON -->
         <link rel="icon" href="./img/mail.png">
         <!-- FAVICON -->
-        
-    </head> 
+    </head>
     <body>
-        
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -33,7 +29,6 @@
                 <li><a href="#contato" target="_blank">Contato</a></li>
             </ul>
         </nav>
-
         <header id="topo">
             <h1>Equipe de Ponta</h1>
             <p>
@@ -43,7 +38,6 @@
             </p>
             <a href="#servicos">Ver mais...</a>
         </header>
-
         <section id="sobre">
             <h2>Sobre</h2>
             <p>
@@ -52,51 +46,45 @@
             </p>
             <a href="#contato">Contrate Agora</a>
         </section>
-
         <section id="servicos">
             <h2>Serviços</h2>
-
-            <table border="1">
-                <tr>
-                    <td>ID</td>
-                    <td>FABRICANTE</td>
-                    <td>MODELO</td>
-                </tr>
-                <tr>
-                    <td colspan="2">1</td>
-                    <td>GM</td>
-                    <td>CHEVETTE</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">2</td>
-                    <td>FORD</td>
-                    <td>KA</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>FIAT</td>
-                    <td>UNO</td>
-                </tr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome serviço</th>
+                        <th>Logo</th>
+                        <th>Info</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desenvolvimento Web</td>
+                        <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
+                        <td>Você poderá desenvolver páginas dinamicas.</td>
+                    </tr>
+                    <tr>
+                        <td>Mini Cursos</td>
+                        <td><img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
+                        <td>Cursos das mais diversas linguagens do mercado.</td>
+                    </tr>
+                    <tr>
+                        <td>WorkShops</td>
+                        <td><img src="./img/eventos.jpg" alt="Headfones" width="30%"></td>
+                        <td>Eventos com os mais renomados profissionais.</td>
+                    </tr>
+                    <tr>
+                        <td>Segurança da Informação</td>
+                        <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
+                        <td>Cuidar da segurança da informação é importante.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Equipe de PONTA SA</td>
+                    </tr>
+                </tfoot>
             </table>
-
-            <div>
-                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
-            </div>
-
-            <div>
-                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
-            </div>
-
-            <div>
-                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
-            </div>
-
-            <div>
-                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
-            </div>
-
         </section>
-
         <section id="imagens">
             <h2>Imagens</h2>
             <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
@@ -106,51 +94,38 @@
             <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
             <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
         </section>
-        
         <section id="contato">
-            
             <div>
                 <form action="index.html" method="GET">
                     <fieldset>
-                        <legend>CONTATO</legend>
+                        <legend>INFO CONTATO</legend>
                         <div>
-                            <label for="">Nome</label>
-                            <input type="text" name="nmCliente" id="nmClienteId"
-                            placeholder="Digite seu nome">
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
                         </div>
                         <div>
-                            <label for="telClienteID">Nome</label>
-                            <input type="tel" name="telCliente" id="telClienteId"
-                            placeholder="Digite seu Telefone">                                
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
                         </div>
                         <div>
-                            <label for="emailClienteID">Nome</label>
-                            <input type="email" name="emailCliente" id="emailClienteId"
-                            placeholder="Digite seu email">
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
                         </div>
-                        <div>
+                         <div>
                             <input type="submit" value="ENVIAR">
                             <input type="reset" value="LIMPAR">
-
-                         
                         </div>
                     </fieldset>
-
                 </form>
             </div>
-
         </section>
         <footer>
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM93897</span></p>
+            <p>Desenvolvido por <span>RM93090</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
-    
     </body>
 </html>
-
-
-
     <!-- <h2>Fale Conosco</h2>
             <div>
                 <img src="./img/tel.png" alt="Telefone">
@@ -160,4 +135,3 @@
                 <img src="./img/mail.png" alt="Envelope">
                 <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
             </div> -->
-        
