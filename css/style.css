@@ -23,7 +23,11 @@
     }
 
     .texto-css{
+<<<<<<< HEAD
         color: #ffffff;
+=======
+        color: #ff0000;
+>>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
         font-weight: 700;
         text-decoration: underline;
         font-family: 'Asap', sans-serif;
@@ -41,7 +45,11 @@ font-family: 'Oswald', sans-serif;
 */
   
 body{
+<<<<<<< HEAD
     background-image: linear-gradient(94deg, #333333, white) ;
+=======
+    background-color: #ffa70054;
+>>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
     /*background-color: rgba(0, 255, 0,0.55);*/
 }
 
@@ -60,6 +68,7 @@ a{
 */
 
 a:hover{
+<<<<<<< HEAD
     font-size: large;
     color: #ED145B;
     border: #ffffff double 3px;
@@ -71,6 +80,10 @@ h3{
     border-color: #ffffff;
     border-width: 2px;
 
+=======
+    color: #0000FF;
+    border: #ff0000 solid 2px;
+>>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
 }
 
 /*
@@ -95,3 +108,43 @@ a{
 }
 */
 
+<<<<<<< HEAD
+=======
+/* CSS NO FORM */
+
+form{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+    form input{
+        display: block;
+        margin: 1% 0;
+        border-radius: 5px;
+        border: solid 2px #CCC;
+    }
+
+    form input[type=text],input[type=tel],input[type=email]{
+        height: 50px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    form input[type=submit],input[type=reset]{
+        display: inline;
+        height: 30px;
+        max-width: 40%;
+        width: 100%;
+        margin: 0 0 0 5%;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        font-size: 1.1em;
+
+    }
+
+    FORM fieldset{
+        border: 2px double #ff0000;
+    }
+
+/* CSS NO FORM */
+>>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
