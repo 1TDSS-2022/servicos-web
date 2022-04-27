@@ -29,7 +29,24 @@ nav a{
     font-size: 34px;
 
 }
-#tabela{
-    border: rgb(0, 0, 114);
+#table{
+    border: 2px solid #000;
+    border-collapse: collapse;
+
 }
 
+table td, th{
+    border: 2px solid #000
+}
+
+table tr:nth-child(odd){
+    background-color: bisque;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(219, 158, 84);
+}
+
+table tr:hover{
+    background-color: aquamarine;
+}
