@@ -88,7 +88,7 @@
         
         </section>
 
-        <sectio id="#contato">
+<!--       <sectio id="#contato">
             <h2>Fale Conosco</h2>
             <div>
                 <img src="./img/tel.png" alt="Telefone.">
@@ -100,28 +100,25 @@
             </div>
 
             <div>
-
+--> 
                 <form action="index.html" mathod="POST">
                     <fieldset>
-                        <legend>LOGIN</legend>
+                        <legend>CONTATO</legend>
                         <div>
-                            <label for="nmUserId">Usuário</label>
-                            <input type="text" name="nmUser" id="nmUserId"
-                            placeholder="Nome de Usuário" required>
-
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
                         </div>
-
                         <div>
-                            <label for="userPassId">Senha</label>
-                            <input type="password" name="userPass" id="userPassId"
-                            placeholder="Digite a Senha" required>
-
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
                         </div>
-
                         <div>
-                           
-                            <input type="submit" value="LOGIN">
-
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
+                        </div>
+                        <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
                         </div>
 
                     </fieldset>
