@@ -1,12 +1,12 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <cabeça>
+    <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <título>SERVIÇOS</título>
-    </cabeça> 
-    <corpo>
+        <title>SERVIÇOS</title>
+    </head> 
+    <body>
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -17,76 +17,88 @@
             </ul>
         </nav>
 
-        <cabeçalho id="topo">
+        <header id="topo">
             <h1>Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
                 Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
                 Segurança da Informação também é uma especialidade que dominamos.
             </p>
-            <a href="#servicos">Ver mais... </a>
-        </cabeçalho>
+            <a href="#servicos">Ver mais...</a>
+        </header>
 
-        <seção id="#sobre">
+        <section id="sobre">
             <h2>Sobre</h2>
             <p>
                 A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
                 Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
             <a href="#contato">Contrate Agora</a>
-        </secção>
+        </section>
 
-        <seção id="#servicos">
+        <section id="servicos">
             <h2>Serviços</h2>
 
             <div>
-                <img src="./img/desenvolvimento.jpg" alt="gadgets" largura="30%">
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
             </div>
 
             <div>
-                <img src="./img/cursos.png" alt="Linguagens de Programação" largura="30%">
-            </div>
-
-            <div> 
-                <img src="./img/eventos.jpg" alt="Headfones" largura="30%">
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
             </div>
 
             <div>
-                <img src="./img/seguranca-info.png" alt="Nuvem de palavras" largura="30%">
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
             </div>
 
-        </secção>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+            </div>
 
-        <seção id="imagens">
-            
+        </section>
+
+        <section id="imagens">
             <h2>Imagens</h2>
-           
-            <img src="./img/backbone.jpg" alt="Rede interligada."" largura="100%">
-            <img src="./img/cidade.jpg" alt="Cidade". largura="100%">
-            <img src="./img/icones.png" alt="Icones."" largura="100%">
-            <img src="./img/internet.jpg" alt="Rede interligada."" largura="100%">
-            <img src="./img/rede.jpg" alt="Rede de fios."" largura="100%">
-            <img src="./img/comunicao.jpg" alt="Rede interligada com fios."" largura="100%">
+            <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
+            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
+        </section>
         
-        </secção>
+        <section id="contato">
 
-        <section id="#contato">
-            <h2>Fale Conosco</h2>
             <div>
-                <img src="./img/tel.png" alt="Telefone.">
-                <p><a href="tel:1196070-0891">(11)96070-0891</a></p>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <div>
+                            <label for="">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
+                        </div>
+                        <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-            <div>
-                <img src="./img/mail.png" alt="Envelope">
-                <p><a href="mailto: rm94301fiap.com.br">rm94301@fiap.com.br</a></p>
-            </div>
-        </secção>
+        </section>
 
         <footer>
-            <a href="#topo>">Voltar</a>
+            <a href="#topo">Voltar</a>
             <p>Desenvolvido por <span>RM94301</span></p>
-            <p>Todos os direitos resevados. 2022&COPY;</p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
-
-    <corpo>
+    
+    </body>
 </html>
