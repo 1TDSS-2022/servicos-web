@@ -60,5 +60,30 @@ nav a{
         border: 2px double #000000;
     }
 
-
 /* CSS NO FORM */
+
+/* CSS TABLE */
+
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+table td,th{
+    border: 2px solid #000000;
+}
+
+table tr:nth-child(odd){
+    background-color: #756f6f;
+}
+
+table tr:nth-child(even){
+    background-color: #d4bcbc;
+}
+
+table tr:hover{
+    background-color: #fc7c5c;
+}
+
+
+/* CSS TABLE */
