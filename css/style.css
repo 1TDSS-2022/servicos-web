@@ -23,7 +23,6 @@ margin: auto;
 }
 
 
-
 h2{
     position: relative;
     margin-left: 80% ;
@@ -42,6 +41,10 @@ a:hover{
 
     
     
+}
+
+table, td{
+    border: 1px solid black;
 }
 
 
