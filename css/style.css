@@ -117,3 +117,26 @@ a{
         border: 2px #ff0000;
     }
 /* CSS NO FORM */
+/* CSS TABLE */
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+
+}
+
+table, td,th{
+    border: 2px solid #000000;
+}
+
+table tr:nth-child(odd) {
+    background-color: #99808c;
+
+}
+table tr:nth-child(even) {
+    background-color: #ED145B;
+
+}
+table tr:hover {
+    background-color: #07cef1;
+
+}
