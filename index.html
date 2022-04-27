@@ -8,6 +8,7 @@
         <!-- CSS EXTERNO-->
         <link rel="stylesheet" href="./css/style.css">
         <!-- CSS EXTERNO-->
+       
     </head>
     <body>
         <nav>
@@ -21,7 +22,7 @@
         </nav>
 
         <header id="topo">
-            <h1>Equipe de Ponta</h1>
+            <h1 id="logo-tit">Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
                 <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
@@ -140,7 +141,21 @@
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
-        
+        <script>
+            //Comentário de linha
+
+            /*
+                Comentário de bloco
+            */
+            const elementoH1 = document.getElementById("logo-tit")
+            elementoH1.click(function(){
+
+                elementoH1.innerHTML = "EQUIPE NOTA 10"
+
+            }
+            )
+
+        </script>
        
     </body>
 </html>
