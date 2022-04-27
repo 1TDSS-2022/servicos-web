@@ -122,6 +122,28 @@ form{
     }
 
 /* CSS NO FORM */
+/*CSS TABLE */
+table{
+    border: 2px solid black;
+}
+
+table td,th{
+    border: 2px solid black;
+}
+
+table tr:nth-child(odd){
+    background-color: burlywood;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(90, 79, 63);
+}
+
+table tr:hover{
+    background-color: rgb(125, 146, 67);
+}
+
+/*CSS TABLE*/
 /*Lado esquerdo equivale a Top e Bottom, Ladp direito ao Right e Left 
     } 
 }
