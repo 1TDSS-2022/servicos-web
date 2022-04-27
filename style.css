@@ -122,4 +122,27 @@ form{
         border: 2px double #ff0000;
     }
 
+    table{
+        border: 2px solid #000000;
+        border-collapse: collapse;
+    }
+
+    table td,th{
+        border: 2px solid #000000;
+    }
+
+    table tr:nth-child(odd){
+        background-color: #5c5a5a;
+    }
+
+    table tr:nth-child(even){
+        background-color: #a7a4a4;
+    }
+
+    table tr:hover{
+        background-color: #FFFFFF;
+    }
+
+
+
 /* CSS NO FORM */
