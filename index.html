@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/style.css"> <!-- style in line é mandatório-->
     <!--In line é colocar o style como atributo numa tag-->
     <title>SERVIÇOS</title>
+
+    
 </head>
 
 <body>
@@ -31,7 +33,7 @@
     <hr>
 
     <header id="topo">
-        <h1>Equipe de Ponta</h1>
+        <h1 id="logo-tit">Equipe de Ponta</h1>
         <p>
             Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
             Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no
@@ -96,24 +98,6 @@
 
         </table>
 
-
-        <div class="imagemteste">
-            <img src="img/desenvolvimento.jpg" alt="Gadgets" width="30%">
-        </div>
-
-        <div>
-            <img src="img/cursos.png" alt="Linguagem de programação" width="30%">
-        </div>
-
-        <div>
-            <img src="img/eventos.jpg" alt="Headfones" width="30%">
-        </div>
-
-        <div>
-            <img src="img/seguranca-info.png" alt="Nuvem de palavras" width="30%">
-        </div>
-
-
     </section>
 
 
@@ -171,6 +155,15 @@
 
 
 
+    <script>
+
+        const elementoH1 = document.getElementById("logo-tit");
+
+        elementoH1.click(function(){
+            elementoH1.innerHTML = "EQUIPE NOTA 10"
+        })
+
+    </script>
 
 </body>
 
@@ -209,3 +202,22 @@
                     <td>UNO</td>
                 </tr>             
             </table> -->
+
+
+<!--             
+        <div class="imagemteste">
+            <img src="img/desenvolvimento.jpg" alt="Gadgets" width="30%">
+        </div>
+
+        <div>
+            <img src="img/cursos.png" alt="Linguagem de programação" width="30%">
+        </div>
+
+        <div>
+            <img src="img/eventos.jpg" alt="Headfones" width="30%">
+        </div>
+
+        <div>
+            <img src="img/seguranca-info.png" alt="Nuvem de palavras" width="30%">
+        </div> -->
+
