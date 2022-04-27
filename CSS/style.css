@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(235, 204, 210);
+}
 ul{
     list-style: square;
     color: red;
@@ -5,4 +8,7 @@ ul{
 a{
     text-decoration: none;
     color: red;
+}
+table{
+    text-align: center;
 }
