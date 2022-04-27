@@ -122,3 +122,29 @@ form{
     }
 
 /* CSS NO FORM */
+
+/*CSS TABLE */
+
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+table td,th{
+    border: 2px solid #000000;
+}
+
+table tr:nth-child(odd){
+    background-color: #756f6f;
+}
+
+table tr:nth-child(even){
+    background-color: #d4bcbc;
+}
+
+table tr:hover{
+    background-color: #ED145B;
+}
+
+
+/*CSS TABLE */
