@@ -1,119 +1,89 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Asap:ital,wght@1.600 & family= Nunito:wght@700 & family= Oswald:wght@700 & display=swap' );
-
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
 /*
-Grupo fontes
+    GRUPO FONTES
 */
-html {
-    font-size: 20px;
+    body{
+        font-family: 'Oswald', sans-serif;
+    }
 
-}
+    #topo h1 {
+        font-family: 'Nunito', sans-serif;
+        border: 2px solid #000000;
+        text-align: center;
+    } 
+    #topo p {
+        border: 2px solid #000000;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
 
-body{
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    background-image: url("../img/eventos.jpg");
-    background-repeat: no-repeat;
-    background-size: 400px ;
-    background-position: top ;
-    background-attachment: fixed ;
-}
-#topo h1{
-    font-family: 'Nunito', sans-serif;
-    border: 2px solid black;
-    text-align: center;
-}
-#topo p{
-    border: 2px solid black;
-    letter-spacing: 2px;
-    font-style: italic;
-}
-#topo a{
-    border: 2px solid black;
-}
+    #topo a{
+        border: 2px solid #000000;
+    }
 
-.texto_css{
-    color: red;
-    font-weight: 700;
-    text-decoration: underline;
-    font-family: 'Asap', sans-serif;
-}
+    .texto-css{
+        color: #ff0000;
+        font-weight: 700;
+        text-decoration: underline;
+        font-family: 'Asap', sans-serif;
+    }
 
-#bg{
-    color: white;
-    background-image: url('../img/fundo-pc.jpg');
-}
 /*
-font-family: 'Oswald', sans-serif;
-font-family: 'Nunito', sans-serif;
 font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+    GRUPO FONTES
 */
 
 /*
-Comentários em CS
+    GRUPO CORES
 */
-
-
-
-/*
-ul {
-    list-style: square;
-    color: red;
+  
+body{
+    background-color: #ffa70054;
+    /*background-color: rgba(0, 255, 0,0.55);*/
 }
 
 a{
-    text-align: none;
-    color: red;
-}
-*/
-
-/*
-Grupo FONTES
-*/
-
-/*
-GRUPO CORES
-*/
-
-body{
-    background-color: #0acae294;
-    /*background-color: rgb(0, 0, 0, 0,55);*/
-}
-
-a {
     text-decoration: none;
-    color: rgb(255, 0, 149);
+    color: #ED145B;
 }
 
-
 /*
-GRUPO CORES
+    GRUPO CORES
 */
 
 /*
-PSEUDO CLASSES
+    PSEUDO CLASSES
+
 */
+
 a:hover{
-    color: #00ff;
-    font-size: x-large;
-    border: red dotted 2px;
+    color: #0000FF;
+    border: #ff0000 solid 2px;
 }
 
-h2{
-    margin:0 0 0 45%;
-    /*margin-left: 45% ;
-    border-top: dotted ;
-    border-color: blue;
-    border-width: 2px;*/
-}
-
-#p-over{
-    overflow: auto;
-    height: 100px;
-}
 /*
-PSEUDO CLASSES
+    PSEUDO CLASSES
+*/
+
+
+
+/*
+    Comentário em CSS
+*/
+
+/*
+ul{
+    list-style: square;
+    color:red;
+}
+
+a{
+    text-decoration: none; 
+    color:red;
+}
 */
 
 /* CSS NO FORM */
