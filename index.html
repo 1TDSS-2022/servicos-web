@@ -23,7 +23,7 @@
         </nav>
         
         <header id="topo">
-            <h1>Equipe de ponta</h1>
+            <h1 id="logo-tit">Equipe de ponta</h1>
             <p>
                 Somos uma equipe da area de tecnologia, onde podemos atuar em diversas frentes.
                 Atuamos nos segmentos de desenvolvimento WEB, mini cursos remotos de linguagem que estão em alta
@@ -130,6 +130,17 @@
             <p>Desenvolvidos por <span>rm93046</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
+
+        <script>
+            //console.log("Alô Mundo!")
+            const elementoH1 = document.getElementById("logo-tit")
+            elementoH1.click(function(){
+
+                elementoH1.innerHTML = "equipe nota 10"
+
+            }  
+            )
+        </script>
 
     </body>
 </html>
