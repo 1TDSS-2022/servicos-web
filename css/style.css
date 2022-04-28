@@ -23,11 +23,7 @@
     }
 
     .texto-css{
-<<<<<<< HEAD
-        color: #ffffff;
-=======
         color: #ff0000;
->>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
         font-weight: 700;
         text-decoration: underline;
         font-family: 'Asap', sans-serif;
@@ -45,11 +41,7 @@ font-family: 'Oswald', sans-serif;
 */
   
 body{
-<<<<<<< HEAD
-    background-image: linear-gradient(94deg, #333333, white) ;
-=======
-    background-color: #ffa70054;
->>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
+    background-color: #1a181554;
     /*background-color: rgba(0, 255, 0,0.55);*/
 }
 
@@ -68,22 +60,8 @@ a{
 */
 
 a:hover{
-<<<<<<< HEAD
-    font-size: large;
-    color: #ED145B;
-    border: #ffffff double 3px;
-}
-
-h3{
-
-    border-top: dotted;
-    border-color: #ffffff;
-    border-width: 2px;
-
-=======
     color: #0000FF;
     border: #ff0000 solid 2px;
->>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
 }
 
 /*
@@ -108,8 +86,6 @@ a{
 }
 */
 
-<<<<<<< HEAD
-=======
 /* CSS NO FORM */
 
 form{
@@ -147,4 +123,30 @@ form{
     }
 
 /* CSS NO FORM */
->>>>>>> 300dd064c39ef1bde748817ffff5df7a51fde11c
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table ,td, th{
+    border: 2px solid black;
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(63, 90, 90);
+}
+
+table tr:nth-child(even){
+    background-color: #CCC;
+}
+
+table tr:hover{
+    background-color: #ff0000;
+}
+
+table tfoot{
+    text-align: center;
+}
+
+
