@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>SERVIÇOS</title>
+
     </head> 
     <body>
         <nav>
@@ -19,7 +20,7 @@
         </nav>
 
         <header id="topo">
-            <h1>Equipe de Ponta</h1>
+            <h1 id="logo-tit">Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
                 Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
@@ -139,6 +140,21 @@
             <p>Desenvolvido por <span>RM94301</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
+
     
+       
     </body>
+    <script>
+        // console.log("Alô Mundo!")
+        // COMENTARIO DE LINHA
+       const elementoH1 = document.getElementById("logo-tit")
+       
+         function myFunction () {
+            elementoH1.innerText('helolo')
+        }
+
+       elementoH1.addEventListener('click', myFunction())
+         
+        
+     </script>
 </html>
