@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+
+             <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
 <!-- 
@@ -30,7 +31,7 @@
             </ul>
         </nav>
         <header id="topo">
-            <h1>Equipe de Ponta</h1>
+            <h1 id = "logo-tit">Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
                 <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
@@ -124,6 +125,23 @@
             <p>Desenvolvido por <span>RM93090</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
+       
+        <script>
+            //console.log("Alô Mundo!")
+            //Comentário de de lInha
+
+            /*
+                COmentário de blocos
+            */
+
+            const elementoH1 = document.getElementById("logo-tit")
+
+            elementoH1.click(function(){
+
+                elementoH1.innerHTML = "EQUIPE NOTA 10"
+            })
+        </script>
+
     </body>
 </html>
     <!-- <h2>Fale Conosco</h2>
