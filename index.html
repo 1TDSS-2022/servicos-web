@@ -6,23 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
+        <!-- JS EXTERNO -->
+        <script type="text/javascript" src="./js/script.js"></script>
+        <!-- JS EXTERNO -->
 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
-            </style>
+        <!-- JS INTERNO NO HEAD -->
+        <script>
+
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
+
+        </script>
+        <!-- JS INTERNO NO HEAD -->
 
         <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- CSS EXTERNO -->
+        
         <!-- FAVICON -->
-        <link rel="stylesheet" href="./img/mail.png">
+        <link rel="icon" href="./img/mail.png">
         <!-- FAVICON -->
-
+        
     </head> 
     <body>
+        
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -54,8 +60,9 @@
 
         <section id="servicos">
             <h2>Serviços</h2>
-           
-            <table border="1">
+
+
+            <table>
                 <thead>
                     <tr>
                         <th>Nome Serviço</th>
@@ -65,12 +72,12 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Desenvolvimento WEB </td>
+                        <td>Desenvolvimento Web</td>
                         <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
-                        <td>Você poderá desenvolver páginas dinâmicas.</td>
+                        <td>Vcê poderá desenvolver páginas dinâmicas.</td>
                     </tr>
                     <tr>
-                        <td>Mini-cursos remotos</td>
+                        <td>Mini-Cursos Remotos</td>
                         <td><img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
                         <td>Cursos das mais diversas linguagens do mercado.</td>
                     </tr>
@@ -82,7 +89,7 @@
                     <tr>
                         <td>Segurança da Informação</td>
                         <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
-                        <td>Cuidar da segurança da sua emrpesa é a nossa missão</td>
+                        <td>Cuidar da segurança da sua empresa é a nossa missão.</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -92,7 +99,105 @@
                 </tfoot>
             </table>
 
-            <!-- <div>
+
+
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens</h2>
+            <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
+            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
+        </section>
+        
+        <section id="contato">
+            
+            <div>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>INFO CONTATO</legend>
+                        <div>
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
+                        </div>
+                        <div>
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
+                        </div>
+                         <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
+                        </div>
+                    </fieldset>
+                  
+                      
+                </form>
+            </div>
+
+        </section>
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por <span>PF0670</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
+
+        <!-- JS INTERNO NO BODY -->
+        <script>
+            //console.log("Alô Mundo!")
+            //Comentário de linha
+            /*
+                Comentário de BLOCO
+            */
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
+
+        </script>
+        <!-- JS INTERNO NO BODY -->
+
+    </body>
+
+</html>
+
+
+
+    <!-- <h2>Fale Conosco</h2>
+            <div>
+                <img src="./img/tel.png" alt="Telefone">
+                <p><a href="tel:11987344534">(11) 98734-4534</a></p>
+            </div>
+            <div>
+                <img src="./img/mail.png" alt="Envelope">
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div>
+        
+         <table border="1">
+                <tr>
+                    <td>ID</td>                <td>FABRICANTE</td>
+                    <td>MODELO</td>
+                </tr>
+                <tr>
+                    <td colspan="2">1</td>
+                    <td>GM - Chevette</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>Ford</td>
+                    <td>Ka</td>
+                </tr>
+                <tr>
+                    <td>3 - Fiat</td>
+                    <td>Uno</td>
+                </tr>
+               
+            </table>
+        
+            <div>
                 <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
             </div>
 
@@ -106,74 +211,6 @@
 
             <div>
                 <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
-            </div> -
-
-        </section>
-
-        <section id="imagens">
-            <h2>Imagens</h2>
-            <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
-            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
-            <img src="./img/icones.png" alt="Icones." width="100%">
-            <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
-            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
-            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
-        </section> -->
+            </div>
         
-        <section id="contato">
-            <h2>Fale Conosco</h2>
-            <div>
-                <img src="./img/tel.png" alt="Telefone">
-                <p><a href="tel:11987344534">(11) 98734-4534</a></p>
-            </div>
-            <div>
-                <img src="./img/mail.png" alt="Envelope">
-                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
-            </div>
-
-            <div>
-                <form action="index.html" method="POST">
-                    <fieldset>
-                        <legend>LOGIN</legend>
-                        <div>
-                            <label for="nmUserId">Usuário</label>
-                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome de Usuário" required>
-                        </div>
-                        <div>
-                            <label for="userPassId">Senha</label>
-                            <input type="password" name="userPass" id="userPassId" placeholder="Digite a Senha" required>
-                        </div>
-                        <div>
-                            <input type="submit" value="LOGIN">
-                        </div>
-                    </fieldset>
-                </form>
-
-            </div>
-
-        </section>
-
-        <footer>
-            <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>PF0670</span></p>
-            <p>Todos os direitos reservados. 2022&copy;</p>
-        </footer>
-
-        <script>
-            //console.log("Hello World!")
-            //Comentário de linha
-            /*
-            Comentário de bloco
-            */
-
-            const elementoH1 = document.getElementById("logo-tit")
-
-            elementoH1.click(function(){
-
-                elementoH1.innerHTML = "EQUIPE NOTA 10"
-
-            })
-         </script>
-        
-    </body>
-</html>
+        -->
