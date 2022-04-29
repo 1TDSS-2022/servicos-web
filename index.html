@@ -7,6 +7,16 @@
         <link rel="stylesheet" href="style.css">
         <title>SERVIÇOS</title>
 
+        <!-- JS EXTERNO-->
+        <script type="text/javascript"></script>
+        
+        <!-- JS INTERNO NO HEAD-->
+        <script>
+            
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
+
+        </script>
+
     </head> 
     <body>
         <nav>
@@ -141,6 +151,8 @@
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
+         <!-- JS INTERNO NO HEAD-->
+
     
        
     </body>
@@ -148,6 +160,10 @@
         // console.log("Alô Mundo!")
         // COMENTARIO DE LINHA
        const elementoH1 = document.getElementById("logo-tit")
+
+            elementoH1.addEventListener("click", function(){
+                elementoH1.innerHTML= "EQUIPE DE PONTA"
+            })
        
          function myFunction () {
             elementoH1.innerText('helolo')
