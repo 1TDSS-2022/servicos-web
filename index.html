@@ -6,35 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
+        <!-- JS EXTERNO -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS EXTERNO -->
+
+        <!-- JS INTERNO NO HEAD -->
         <script>
-            //console.log("Alô Mundo!")
-            //Comentário de linha
-            /*
-            comentário de BLOCO
-            */
 
-            const elementoH1 = document.getElementById("logo-tit")
-
-            elementoH1.click(function(){
-                
-                elementoH1.innerHTML = "EQUIPE NOTA 10"
-
-            })
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
 
         </script>
-
-
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
-<!-- 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
-        </style> -->
+        <!-- JS INTERNO NO HEAD -->
 
         <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- CSS EXTERNO -->
+        
         <!-- FAVICON -->
         <link rel="icon" href="./img/mail.png">
         <!-- FAVICON -->
@@ -53,7 +40,7 @@
         </nav>
 
         <header id="topo">
-            <h1 logo-tit>Equipe de Ponta</h1>
+            <h1 id="logo-tit">Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
                 <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
@@ -75,7 +62,7 @@
             <h2>Serviços</h2>
 
 
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Nome Serviço</th>
@@ -86,30 +73,23 @@
                 <tbody>
                     <tr>
                         <td>Desenvolvimento Web</td>
-                        <td> <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
-                        <td>Você poderá desenvolver páginas dinâmicas</td>
+                        <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
+                        <td>Vcê poderá desenvolver páginas dinâmicas.</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Mini-Cursos Remotos</td>
                         <td><img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
-                        <td>Cursos das mais diversas linguagens do mercado</td>
+                        <td>Cursos das mais diversas linguagens do mercado.</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Workshops</td>
                         <td><img src="./img/eventos.jpg" alt="Headfones" width="30%"></td>
-                        <td>Eventos com os mais renomados profissionais</td>
-                        <td></td>
+                        <td>Eventos com os mais renomados profissionais.</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <td>Segurança da Informação</td>
                         <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
-                        <td>Cuidar da segurança da sua empresa é a nossa missão</td>
+                        <td>Cuidar da segurança da sua empresa é a nossa missão.</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -120,22 +100,6 @@
             </table>
 
 
-
-            <div>
-                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
-            </div>
-
-            <div>
-                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
-            </div>
-
-            <div>
-                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
-            </div>
-
-            <div>
-                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
-            </div>
 
         </section>
 
@@ -183,11 +147,21 @@
             <p>Desenvolvido por <span>RM94233</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
-    
+
+        <!-- JS INTERNO NO BODY -->
         <script>
-            console.log("Alô Mundo!")
+            //console.log("Alô Mundo!")
+            //Comentário de linha
+            /*
+                Comentário de BLOCO
+            */
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
+
         </script>
+        <!-- JS INTERNO NO BODY -->
+
     </body>
+
 </html>
 
 
@@ -200,17 +174,11 @@
             <div>
                 <img src="./img/mail.png" alt="Envelope">
                 <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
-            </div> -->
-   
-
-
-
-
-
-            <table border = "1">
+            </div>
+        
+         <table border="1">
                 <tr>
-                    <td>ID</td>
-                    <td>FABRICANTE</td>
+                    <td>ID</td>                <td>FABRICANTE</td>
                     <td>MODELO</td>
                 </tr>
                 <tr>
@@ -226,4 +194,25 @@
                     <td>3 - Fiat</td>
                     <td>Uno</td>
                 </tr>
+               
             </table>
+        
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+            </div>
+
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+            </div>
+
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+            </div>
+
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+            </div>
+        
+        -->
+        
+

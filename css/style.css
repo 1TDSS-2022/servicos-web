@@ -12,7 +12,7 @@
         border: 2px solid #000000;
         text-align: center;
     } 
-    #topo p {
+    #topo p { 
         border: 2px solid #000000;
         letter-spacing: 2px;
         font-style: italic;
@@ -123,7 +123,7 @@ form{
 
 /* CSS NO FORM */
 
-/*CSS TABLE */
+ /* CSS TABLE */
 
 table{
     border: 2px solid #000000;
@@ -143,8 +143,8 @@ table tr:nth-child(even){
 }
 
 table tr:hover{
-    background-color: #ED145B;
+    background-color: #dd8686;
 }
 
 
-/*CSS TABLE */
+ /* CSS TABLE */
