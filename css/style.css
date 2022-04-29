@@ -97,6 +97,32 @@ form fieldset{
 
 /* CSS NO FORM */
 
+/* CSS NA TABLE */
+
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+table td, th {
+    border: 2px solid #000000;
+}
+
+table tr:nth-child(odd) {
+    background-color: #756f6f;
+}
+
+table tr:nth-child(even) {
+    background-color: #d4bcbc;
+}
+
+table tr:hover {
+    background-color: #dd8686;
+}
+
+
+/* CSS NA TABLE */
+
 /*
 ul{
     list-style: square;
