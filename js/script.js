@@ -1,103 +1,84 @@
 console.log("MSG ENVIADA NO ARQUIVO EXTERNO!")
 
 //Utilizado para declarações globais [ var ]
-//Quando se utiliza o var estamos dizendo para o interpretador
-//que o escopo desta variavél será global.
-var nome = "Franklin"
+//Quando se utiliza o var estamos dizendo ao interpretador
+// que o escopo desta variável será global.
+var nome = "Alê"
 
 
-//ARRAYS OU VETOR = É UM OBJETO
-//[] DETERMINA OS DADOS PARA O VETOR OU ARRAY
-var frutas = ['laranja', 'banana', 'maça', 'uva']
+//ARRAYS OU VETOR
+var frutas = ['laranja', 'banana', 'maçã','uva']
+//Leitura da estrutura completa console.table(frutas)
+//Verificação do tamanho do Array console.log("Tamanho do array : " + frutas.length)
+//Trazendo a primeira posição console.log("PRIMEIRO ELEMENTO DO ARRAY : " + frutas[0])
+//Trazendo a última posição console.log("ÚLTIMO ELEMENTO DO ARRAY : " + frutas[frutas.length - 1])
 
-//LEITURA DA ESTRUTURA COMPLETA :
-//console.table(frutas)
+//Declaração loop FOR com indice incrementavel
+// for(let x = 0; x < frutas.length ; x++ ){
+//     console.log("ITENS DO ARRAY FRUTAS : " + frutas[x])
+// }
 
-//VERIFICAÇÃO DO TAMANHO DO ARRAY:
-//console.log("O tamanho do array:" + frutas.length)
+//Iteração com forof
+// for (let fruta of frutas) {
+//     console.log("ITENS DO ARRAY FRUTAS : " + fruta)
+// }
 
-//TRAZENDO A PRIMEIRA POSIÇÃO DO ARRAY:
-//console.log("Primeiro elemento do ARRAY:" + frutas[0])
+//Iteração com forin
+// for (let indice in frutas) {
+//     console.log("ITENS DO ARRAY FRUTAS : " + frutas[indice])
+// }
 
-//TRAZENDO A ULTIMA POSIÇÃO:
-//console.log("Primeiro elemento do ARRAY:" + frutas[frutas.length - 1])
-
-//DECLARAÇÃO LOOP FOR COM INDICE INCREMENTAVEL
-//for(let  x = 0; x < frutas.length ; x++ ){
- //   console.log("Intens do array:" + frutas[x])
-//}
-
-//INTERAÇAÕ COM O FOROF
-//for (let frutas of frutas){
-//    console.log("Intens do array frutas:" + frutas)
-//}
-
-//INTERAÇAÕ COM O FORIN
-//for (let indice in frutas){
- //   console.log("Intens do array frutas:" + frutas[indice])
-//}
-
-
-
-
-//Seleção de elemento com notação HTML
+//Seleçao de elemento com notação HTML
 //const elementoH1 = document.getElementById("logo-tit")
 
-//Seleção de elemento com notação CSS
-const elementoH1 = document.querySelector ("#logo-tit")
+//Seleçao de elemento com notação CSS
+const elementoH1 = document.querySelector("#logo-tit")
 
-elementoH1.addEventListener("click", function(){
-    //Utilizado para declarações globais [ let ]
-    //Quando se utiliza o var estamos dizendo para o interpretador
-    //que o escopo desta variavél será global.
-    let sobrenome = "Nascimento"
+elementoH1.addEventListener('click',function(){
+    //Utilizado para declarações locais [ let ]
+    //Quando se utiliza o let estamos dizendo ao interpretador
+    // que o escopo desta variável será local.
+    let sobrenome = "Carlos"
 
-    
-    elementoH1.innerHTML= "EQUIPE DE PONTA"
-    console.log("O sobrenome é:" + sobrenome)
+    elementoH1.innerHTML = "EQUIPE NOTA 10"
+    console.log("O sobrenome é : " + sobrenome)
+})
 
-    elementoH1.addEventListener("dblclick", function(){
-        elementoH1.innerHTML="Equipe de ponta"
-    })
-
+elementoH1.addEventListener('dblclick',function(){
+    elementoH1.innerHTML = "Equipe de Ponta"
+})
 
 //Trabalhando com listas de elementos
-//Utilizando a notação CSS também para recuperar alista de determinados seletores.
-// EX:
+//Utilizamos a notação CSS também para recuperar a lista de determinados seletores.
+// Ex:
 
-const listaDeLi = document.querySelectorAll('li')
+const listaDeLi = document.querySelectorAll("li")
 
-//INTERANDO COM O FOR NORMAL
-//for(let x = 0; x < listaDeLi.length; x++){
- //   console.log("Console de lista de li:" +  listaDeLi[x].innerHTML)
-//}
+//Iterando com o for normal
+// for(let x = 0; x < listaDeLi.length ; x++){
+//     console.log("CONTEÚDO DE LISTA DE LI : " + listaDeLi[x].innerHTML)
+// }
 
-//INTERANDO COM O FOR OF
-//for(const elemento of listaDeLi){
- //   console.log("Conteudo de lista de li:" + elemento.innerHTML)
-//}
+//Iterando com o forof
+// for (const elemento of listaDeLi) {
+//      console.log("CONTEÚDO DE LISTA DE LI : " + elemento.innerHTML)
+// }
 
-//INTERANDO COM O FOR IN
-for(let indice in listaDeLi){
- //   if(listaDeLi[indice].innerHTML != undefined){
- //   console.log("Conteudo de lista de li:" + listaDeLi[indice].innerHTML)
-//    }else{
-//        console.log("Oconteudo é indefinido!")
- //   }
+//Iterando com o forin
+for (let indice in listaDeLi) {
+    // if(listaDeLi[indice].innerHTML != undefined){
+    //     console.log("CONTEÚDO DE LISTA DE LI : " + listaDeLi[indice].innerHTML)
+    // }else{
+    //     console.log("O CONTEÚDO É INDEFINIDO!")
+    // }
 
- switch(listaDeLi[indice].innerHTML) {
-     case undefined
-     case value:
+    switch (listaDeLi[indice].innerHTML) {
+        case undefined:
+            console.log("O CONTEÚDO É INDEFINIDO!")
+            break;
+        default:
+            console.log("CONTEÚDO DE LISTA DE LI : " + listaDeLi[indice].innerHTML)
+            break;
+    }
 
-         break
-    default
- }
 }
-
-
-
-
-
-
-
-
