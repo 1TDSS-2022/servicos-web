@@ -3,15 +3,9 @@
 /*
     GRUPO FONTES
 */
-    html{
-        font-size: 20px;
-    }
-
-
     body{
         font-family: 'Oswald', sans-serif;
-        font-size: 16px;
-    }   
+    }
 
     #topo h1 {
         font-family: 'Nunito', sans-serif;
@@ -70,29 +64,6 @@ a:hover{
     border: #ff0000 solid 2px;
 }
 
-h2{
-    
-    margin-left:50%;
-    border-top:dotted;
-    border-color: #0000FF;
-    border-width: 2px;
-    
-}
-
-#p-over{
-    overflow: hidden;
-    height: 20px;
-
-
-}
-
-
-#bg{
-    color: #fff;
-    background-image: url("../img/fundo-pc.jpg");
-
-}
-
 /*
     PSEUDO CLASSES
 */
@@ -115,3 +86,40 @@ a{
 }
 */
 
+/* CSS NO FORM */
+
+form{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+    form input{
+        display: block;
+        margin: 1% 0;
+        border-radius: 5px;
+        border: solid 2px #CCC;
+    }
+
+    form input[type=text],input[type=tel],input[type=email]{
+        height: 50px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    form input[type=submit],input[type=reset]{
+        display: inline;
+        height: 30px;
+        max-width: 40%;
+        width: 100%;
+        margin: 0 0 0 5%;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        font-size: 1.1em;
+
+    }
+
+    FORM fieldset{
+        border: 2px double #ff0000;
+    }
+
+/* CSS NO FORM */
