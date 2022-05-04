@@ -1,0 +1,1 @@
+console.log("MSG ENVIADA NO ARQUIVO EXTERNO!")

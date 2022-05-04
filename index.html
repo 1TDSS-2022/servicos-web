@@ -6,6 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title> <!-- TODO DOCUMENTO TEM QUE TER TITULO -->
 
+        <!-- JS EXTERNO -->
+        <script type="text/javascript" src="./js/script.js"></script>
+        <!-- JS EXTERNO -->
+
+        <!-- JS INTERNO NO HEAD -->
+        
+        <script>
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
+        </script>
+
+        <!-- JS INTERNO NO HEAD -->
+
         <!-- google fonts -->
         <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -164,12 +176,25 @@
                 </form>
             </div>
 
+        <h2>Fale Conosco</h2>
+        <div>
+            <img src="./img/tel.png" alt="Telefone">
+            <!-- Coloca-se o href e o tel para referenciar o telefone -->
+            <p><a href="tel:1199999-9999">(11) 99999-9999</a></p>
+        </div>
+        <div>
+            <img src="img/mail.png" alt="Envelope Email">
+            <p><a href="mailto:rm93038@fiap.com.br">rm93038@fiap.com.br</a></p>
+        </div>
+
         <footer>            
             <a href="#topo">Voltar ao topo</a>
             <p>Desenvolvido por <span>rm93038</span></p>            
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
+        <!-- JS INTERNO NO BODY -->
+        
         <script>
             //console.log("Alo Mundo!")
         
@@ -184,9 +209,12 @@
 
             })
 
+            console.log("MSG ENVIADA ATRAVÉS DO BODY")
         
         </script>
         
+        <!-- JS INTERNO NO BODY -->
+
     </body>
 </html>
 
