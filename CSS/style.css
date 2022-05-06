@@ -12,7 +12,7 @@
         border: 2px solid #000000;
         text-align: center;
     } 
-    #topo p {
+    #topo p { 
         border: 2px solid #000000;
         letter-spacing: 2px;
         font-style: italic;
@@ -97,7 +97,7 @@ form{
         display: block;
         margin: 1% 0;
         border-radius: 5px;
-        border: solid 2px #CCC;
+        border: solid 2px #ccc;
     }
 
     form input[type=text],input[type=tel],input[type=email]{
@@ -115,11 +115,36 @@ form{
         background-color: #0000FF;
         color: #FFFFFF;
         font-size: 1.1em;
-
     }
 
-    FORM fieldset{
+    form fieldset{
         border: 2px double #ff0000;
     }
 
 /* CSS NO FORM */
+
+ /* CSS TABLE */
+
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+table td,th{
+    border: 2px solid #000000;
+}
+
+table tr:nth-child(odd){
+    background-color: #756f6f;
+}
+
+table tr:nth-child(even){
+    background-color: #d4bcbc;
+}
+
+table tr:hover{
+    background-color: #dd8686;
+}
+
+
+ /* CSS TABLE */
