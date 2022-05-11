@@ -6,30 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
 
+        <!-- JS EXTERNO -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS EXTERNO -->
+
+        <!-- JS INTERNO NO HEAD -->
         <script>
-            //console.log("Alo Mundo!")
 
-            const elementoH1 = document.getElementById("logo-tit")
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
 
-            elementoH1.click(
-                function(){
-                    elementoH1.innerHTML = "EQUIPE NOTA 10"
-                }
-            )
         </script>
+        <!-- JS INTERNO NO HEAD -->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Hind+Vadodara:wght@300&family=Nunito+Sans:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
-
-        <!--CSS EXTERNO-->
+        <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
-        <!--CSS EXTERNO-->
-        <!--FAVICON -->
+        <!-- CSS EXTERNO -->
+        
+        <!-- FAVICON -->
         <link rel="icon" href="./img/mail.png">
-        <!--FAVICON -->
-    </head>
+        <!-- FAVICON -->
+        
+    </head> 
     <body>
+        
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -40,168 +39,106 @@
             </ul>
         </nav>
 
-
         <header id="topo">
-            <h1 id="logo-tit">Equipe de ponta</h1>
+            <h1 id="logo-tit">Equipe de Ponta</h1>
             <p>
-                Somos uma equipe da area de Tecnologia, onde podemos atuar em diversas frentes.
-                <small class="texto-css">Atuamos</small> no seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da area.
-                Segurança da informação também é uma especialidade que dominamos.
+                Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
+                <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação <span class="texto-css">também</span> é uma especialidade que dominamos.
             </p>
+            <a href="#servicos">Ver mais...</a>
+        </header>
 
-            <p id="p-over">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi magnam reiciendis facilis dolores officiis porro numquam eum dignissimos ex doloremque iusto tenetur doloribus earum nesciunt veritatis distinctio
-                ,ad reprehenderit accusantium itaque voluptas repellat perferendis esse?
-                Ab aliquid nobis alias, non reiciendis nulla incidunt eius et magnam eaque vel ipsum laudantium similique saepe mollitia quisquam sequi odit enim ratione eos aperiam ullam delectus pariatur.
-                Iste blanditiis possimus, aliquid rem dolorum eius asperiores! Ea dolores iste iure nulla!
-                Quae sequi eveniet veritatis quaerat asperiores exercitationem fugiat autem, necessitatibus corporis minima quo sapiente aspernatur voluptate saepe quasi nobis temporibus dolor dolores, numquam neque.
-            </p>
-            
-        </header><a href="#servicos">Ver mais...</a>
-
-        <section id="#sobre">
+        <section id="sobre">
             <h2>Sobre</h2>
             <p>
-                A empresa <small class="texto-css">EQUIPE DE PONTA</small>  foi criada em 2021 no auge da pandemia, com o intuito de ajudar o proximo, conseguiu construir uma historia de sucesso ao longo de um ano de vida.
-                Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem! 
+                A empresa <small class="texto-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
             <a href="#contato">Contrate Agora</a>
         </section>
 
-        <section id="#servicos">
+        <section id="servicos">
             <h2>Serviços</h2>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome Serviço</th>
-                        <th>Logo</th>
-                        <th>Info</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td><img src="./img/desenvolvimento.jpg" alt="Gadgets." width="30%"></td>
-                        <td>Você podera desenvolver paginas dinamicas.</td>
-                    </tr>
-                    <tr>
-                        <td>Mini-Cursos Remotos</td>
-                        <td><img src="./img/cursos.png" alt="Linguagens de programação." width="30%"></td>
-                        <td>Cursos das mais diversas linguagens do mercado.</td>
-                    </tr>
-                    <tr>
-                        <td>WorkShops</td>
-                        <td><img src="./img/eventos.jpg" alt="Headfones." width="30%"></td>
-                        <td>Eventos com os mais renomados profissionais.</td>
-                    </tr>
-                    <tr>
-                        <td>Segurança da Informação</td>
-                        <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
-                        <td>Cuidar da segurança da sua empresa é a nossa missão.</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">Equipe de PONTA/SA</td>
-                    </tr>
-                </tfoot>
-            </table>
-
-         
-
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+                <p>Desenvolvimento Web</p>
+            </div>
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+                <p>Mini-Cursos Remotos</p>
+            </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+                <p>Workshops</p>
+            </div>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+                <p>Segurança da Informação</p>
+            </div>
         </section>
 
         <section id="imagens">
             <h2>Imagens</h2>
             <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
             <img src="./img/cidade.jpg" alt="Cidade." width="100%">
-            <img src="./img/icones.png" alt="icones." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
             <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
-            <img src="./img/rede.jpg" alt="Rede de fios" width="100%">
-            <img src="./img/comunicao.jpg" alt="Rede interligada com fios." width="100%">
+            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
+            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
         </section>
-
+        
         <section id="contato">
-           <!-- <h2>Fale Conosco</h2>-->
-           <!-- <div>
-                <img src="./img/tel.png" alt="Telefone.">
-                <p>
-                    <a href="tel:11987344534">(11) 98734-4534 </a>
-                </p>
-            </div>
+            
             <div>
-                <img src="./img/mail.png" alt="Envelope.">
-                <p>
-                    <a href="mailto:rm94642@fiap.com.br">rm94642@fiap.com.br</a>
-                </p>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>INFO CONTATO</legend>
+                        <div>
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
+                        </div>
+                        <div>
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
+                        </div>
+                         <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
+                        </div>
+                    </fieldset>
+                  
+                      
+                </form>
             </div>
 
-            <div>
-
-                <div>
-                    <form action="index.html" method="POST">
-                        <fieldset>
-                            <legend>Login</legend>
-                            <div>
-                                <label for="nmUserId">Usuario</label>
-                                <input type="text" name="nmUser" id="nmUserId" placeholder="Nome de Usuário" required>
-                            </div>
-
-                            <div>
-                                <label for="userPassId">Senha</label>
-                                <input type="password" name="userPass" id="userPassId" placeholder="Digite a senha" required>
-                            </div>
-
-                            <div>
-                                <input type="submit" value="LOGIN">
-                            </div>
-
-                        </fieldset>
-                    </form>
-                </div>
-
-            </div>
-
-        </section>-->
-        
-          <div>
-            <form action="./index.html" method="get">
-                <fieldset>
-                    <legend>Contato</legend>
-                    <div>
-                        <label for="nmClienteId">Nome</label>
-                        <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
-                    </div>
-                    <div>
-                        <label for="telClienteId">Telefone</label>
-                        <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
-                    </div>
-                    <div>
-                        <label for="emailClienteId">E-mail</label>
-                        <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu E-mail">
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar">
-                    </div>
-                </fieldset>
-
-            </form>
-        </div>  
         </section>
-        
-
         <footer>
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM94642</span></p>
+            <p>Desenvolvido por <span>PF0670</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
-    </body>
-</html>
+        <!-- JS INTERNO NO BODY -->
+        <script>
+            //console.log("Alô Mundo!")
+            //Comentário de linha
+            /*
+                Comentário de BLOCO
+            */
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
 
+        </script>
+        <!-- JS INTERNO NO BODY -->
+
+    </body>
+
+</html>
 <!--
 
  <table border="1">
