@@ -12,7 +12,21 @@ nav > a {
 }
 nav > a:hover {
     background-color: #1f1fb4;
+
 }
+
+.listaDeLinks li a{
+
+    color: #FFFFFF;
+}
+
+.listaDeLinks li {
+    display:  inline;
+    padding: 0 5%;
+}
+
+
+
 /*
     GRUPO FONTES
     body{
