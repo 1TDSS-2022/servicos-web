@@ -1,223 +1,194 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SERVIÇOS</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/file_type_favicon_icon_130608.png" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:ital,wght@1,700&family=Oswald:wght@200&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"> <!-- style in line é mandatório-->
-    <!--In line é colocar o style como atributo numa tag-->
-    <title>SERVIÇOS</title>
+        <!-- JS EXTERNO -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS EXTERNO -->
 
-    
-</head>
+        <!-- JS INTERNO NO HEAD -->
+        <script>
 
-<body>
-    <nav>
-        <a href="#">Serviços WEB</a>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#imagens">Imagens</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
 
-    <hr>
+        </script>
+        <!-- JS INTERNO NO HEAD -->
 
-    <header id="topo">
-        <h1 id="logo-tit">Equipe de Ponta</h1>
-        <p>
-            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
-            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no
-            mercado. WorkShops com os mais distintos especialistas da área.
-            Segurança da Informação também é uma especialidade que dominamos.
-        </p>
-        <a href="#servicos">Ver mais...</a>
-    </header>
+        <!-- CSS EXTERNO -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- CSS EXTERNO -->
+        
+        <!-- FAVICON -->
+        <link rel="icon" href="./img/mail.png">
+        <!-- FAVICON -->
+        
+    </head> 
+    <body>
+        
+        <nav>
+            <a href="#">Serviços WEB</a>
+            <ul class="listaDeLinks">
+                <li><a href="#sobre" target="_blank">Sobre</a></li>
+                <li><a href="#servicos" target="_blank">Serviços</a></li>
+                <li><a href="#imagens" target="_blank">Imagens</a></li>
+                <li><a href="#contato" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
 
-    <section id="#sobre">
+        <header id="topo">
+            <h1 id="logo-tit">Equipe de Ponta</h1>
+            <p>
+                Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
+                <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação <span class="texto-css">também</span> é uma especialidade que dominamos.
+            </p>
+            <a href="#servicos">Ver mais...</a>
+        </header>
 
-        <div id="bg"></div>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                A empresa <small class="texto-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
+            </p>
+            <a href="#contato">Contrate Agora</a>
+        </section>
 
-        <h2>Sobre</h2>
-        <p>
-            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo,
-            conseguiu construir uma história de sucesso ao longo de um ano de vida.
-            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
-        </p>
-        <a href="contato">Contrate Agora</a>
-    </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+                <p>Desenvolvimento Web</p>
+            </div>
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+                <p>Mini-Cursos Remotos</p>
+            </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+                <p>Workshops</p>
+            </div>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+                <p>Segurança da Informação</p>
+            </div>
+        </section>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Nome serviço</th>
-                    <th>Logo</th>
-                    <th>Info</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Desenvolvimento Web</td>
-                    <td><img src="img/desenvolvimento.jpg" alt="Gadgets" width="30%"></td>
-                    <td>Você poderá desenvolver páginas dinâmicas.</td>
-                </tr>
-                <tr>
-                    <td>Mini-Cursos</td>
-                    <td><img src="img/cursos.png" alt="Linguagem de programação" width="30%"></td>
-                    <td>Cursos das mais diversas línguagens do mercado.</td>
-                </tr>
-                <tr>
-                    <td>WorkShops</td>
-                    <td><img src="img/eventos.jpg" alt="Headfones" width="30%"></td>
-                    <td>Eventos com os mais renomados profissionais</td>
-                </tr>
-                <tr>
-                    <td>Segurança da informação</td>
-                    <td><img src="img/seguranca-info.png" alt="Nuvem de palavras" width="30%"></td>
-                    <td>Cuidar da segurança da sua empresa é a nossa missão</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">Equipe de PONTA/SA</td>
-                </tr>
-            </tfoot>
+        <section id="imagens">
+            <h2>Imagens</h2>
+            <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
+            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
+        </section>
+        
+        <section id="contato">
+            
+            <div>
+                <form action="index.html" method="GET">
+                    <fieldset>
+                        <legend>INFO CONTATO</legend>
+                        <div>
+                            <label for="nmClienteId">Nome</label>
+                            <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="telClienteId">Telefone</label>
+                            <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
+                        </div>
+                        <div>
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
+                        </div>
+                         <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
+                        </div>
+                    </fieldset>
+                  
+                      
+                </form>
+            </div>
 
+        </section>
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por <span>PF0670</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
 
-        </table>
+        <!-- JS INTERNO NO BODY -->
+        <script>
+            //console.log("Alô Mundo!")
+            //Comentário de linha
+            /*
+                Comentário de BLOCO
+            */
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
 
-    </section>
+        </script>
+        <!-- JS INTERNO NO BODY -->
 
-
-    <section id="imagens">
-
-        <h2>imagens</h2>
-        <img src="./img/backbone.jpg" alt="Uma rede interligada." width="100%">
-        <img src="./img/cidade.jpg" alt="Cidade." width="100%">
-        <img src="./img/icones.png" alt="Icones." width="100%">
-        <img src="./img/internet.jpg" alt="Internet." width="100%">
-        <img src="./img/rede.jpg" alt="Rede fibra otica." width="100%">
-        <img src="./img/comunicao.jpg" alt="Rede interligada com fios." width="100%">
-
-    </section>
-
-    <section id="contato">
-
-        <div>
-            <form action="index.html" method="post">
-                <fieldset>
-                    <legend>CONTATO</legend>
-                    <div>
-                        <label for="nmClienteId">Nome</label>
-                        <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
-                    </div>
-                    <div>
-                        <label for="TelClienteId">Telefone</label>
-                        <input type="tel" name="TelCliente" id="TelClienteId" placeholder="Digite seu telefone">
-                    </div>
-                    <div>
-                        <label for="EmailClienteId">Email</label>
-                        <input type="email" name="EmailCliente" id="EmailClienteId" placeholder="Digite seu email"
-                            required>
-                    </div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
-                    <div>
-
-                    </div>
-                </fieldset>
-
-
-
-            </form>
-        </div>
-
-    </section>
-
-    <footer>
-        <a href="#topo">Voltar</a>
-        <p>Desenvolvimento por <span>Luan Reis</span></p>
-        <p>Todos os direitos reservados. 2022&copy</p>
-        <i>Subir</i>
-    </footer>
-
-
-
-    <script>
-
-        const elementoH1 = document.getElementById("logo-tit");
-
-        elementoH1.click(function(){
-            elementoH1.innerHTML = "EQUIPE NOTA 10"
-        })
-
-    </script>
-
-</body>
+    </body>
 
 </html>
 
-<!-- <h2>Fale Conosco</h2>
+
+
+    <!-- <h2>Fale Conosco</h2>
             <div>
-                <img src="img/tel.png" alt="Icone telefone">
-                <p><a href="tel:11987344534">(011) 98734-4534</a></p>
+                <img src="./img/tel.png" alt="Telefone">
+                <p><a href="tel:11987344534">(11) 98734-4534</a></p>
             </div>
-            
             <div>
-                <img src="img/mail.png" alt="Icone email">
-                <p><a href="mailto:rm94898@fiap.com.br">Meu email fiap</a></p>
-            </div> -->
-
-
-<!-- 
-            <table>
+                <img src="./img/mail.png" alt="Envelope">
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div>
+        
+         <table border="1">
                 <tr>
-                    <td>ID</td>
-                    <td>FABRICANTE</td>
+                    <td>ID</td>                <td>FABRICANTE</td>
                     <td>MODELO</td>
-                </tr>             
+                </tr>
                 <tr>
                     <td colspan="2">1</td>
-                    <td>GM - ONIX</td>
-                </tr>             
+                    <td>GM - Chevette</td>
+                </tr>
                 <tr>
                     <td rowspan="2">2</td>
-                    <td>NISSAN</td>
-                    <td>TIIDA</td>
-                </tr>             
+                    <td>Ford</td>
+                    <td>Ka</td>
+                </tr>
                 <tr>
-                    <td> 3 - FIAT</td>
-                    <td>UNO</td>
-                </tr>             
-            </table> -->
+                    <td>3 - Fiat</td>
+                    <td>Uno</td>
+                </tr>
+               
+            </table>
+        
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+            </div>
 
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+            </div>
 
-<!--             
-        <div class="imagemteste">
-            <img src="img/desenvolvimento.jpg" alt="Gadgets" width="30%">
-        </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+            </div>
 
-        <div>
-            <img src="img/cursos.png" alt="Linguagem de programação" width="30%">
-        </div>
-
-        <div>
-            <img src="img/eventos.jpg" alt="Headfones" width="30%">
-        </div>
-
-        <div>
-            <img src="img/seguranca-info.png" alt="Nuvem de palavras" width="30%">
-        </div> -->
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+            </div>
+        
+        -->
+        
 
