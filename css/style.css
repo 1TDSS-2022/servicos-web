@@ -17,6 +17,22 @@ nav > a:hover {
     background-color: #1f1fb4;
 }
 
+.listaDeLinks li a{
+    color: #FFFFFF;
+}
+
+.listaDeLinks li{
+    display: inline;
+    padding: 0 5%;
+}
+
+/*
+    1 - Inverta a cor de fundo e do texto do botão da NAVBAR
+    2 - Coloque a lista de links em formato de linha
+    3 - Coloque o background-color da nav com a cor do background-color anterior do botão.
+*/
+
+
 
 
 
