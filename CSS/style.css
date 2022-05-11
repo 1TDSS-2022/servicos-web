@@ -1,35 +1,143 @@
-body{
-    background-color: rgb(235, 204, 210);
-}
-ul{
-    list-style: square;
-    color: red;
-}
+/*@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
+
+/*
+    GRUPO FONTES
+*/
+/*    body{
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #topo h1 {
+        font-family: 'Nunito', sans-serif;
+        border: 2px solid #000000;
+        text-align: center;
+    } 
+    #topo p {
+        border: 2px solid #000000;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+
+    #topo a{
+        border: 2px solid #000000;
+    }
+
+    .texto-css{
+        color: #ff0000;
+        font-weight: 700;
+        text-decoration: underline;
+        font-family: 'Asap', sans-serif;
+    }
+
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+    GRUPO FONTES
+*/
+
+/*
+    GRUPO CORES
+*/
+  
+/*body{
+    background-color: #ffa70054;
+    /*background-color: rgba(0, 255, 0,0.55);*/
+/*}
+
 a{
     text-decoration: none;
-    color: red;
+    color: #ED145B;
 }
 
-/*CSS table*/
-table{
-    border: 2px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    font-size: xx-large;
+/*
+    GRUPO CORES
+*/
+
+/*
+    PSEUDO CLASSES
+
+*/
+
+/*a:hover{
+    color: #0000FF;
+    border: #ff0000 solid 2px;
 }
 
-table td, th{
-    border: 2px solid black;
+/*
+    PSEUDO CLASSES
+*/
+
+
+
+/*
+    Comentário em CSS
+*/
+
+/*
+ul{
+    list-style: square;
+    color:red;
 }
 
-table tr:nth-child(odd){
-    background-color: rgb(201, 201, 201);
+a{
+    text-decoration: none; 
+    color:red;
+}
+*/
+
+/* CSS NO FORM */
+
+/*form{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-table tr:nth-child(even){
-    background-color: rgb(129, 129, 129);
+    form input{
+        display: block;
+        margin: 1% 0;
+        border-radius: 5px;
+        border: solid 2px #CCC;
+    }
+
+    form input[type=text],input[type=tel],input[type=email]{
+        height: 50px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    form input[type=submit],input[type=reset]{
+        display: inline;
+        height: 30px;
+        max-width: 40%;
+        width: 100%;
+        margin: 0 0 0 5%;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        font-size: 1.1em;
+
+    }
+
+    FORM fieldset{
+        border: 2px double #ff0000;
+    }
+
+/* CSS NO FORM */
+
+nav {
+    margin-top: 5%;
 }
 
-table tr:hover{
-    background-color: rgba(27, 40, 214, 0.582);
+nav > a:hover{
+    background-color: red;
 }
+
+nav > a:first-child{
+    text-decoration: none;
+    background-color: #0505b5;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 5px;
+}
+
