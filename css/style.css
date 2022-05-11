@@ -1,8 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
+
+nav{
+    margin-top: 5%;
+    background-color: #0505b5;
+}
+nav > a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #0505b5;
+
+}
+
+nav > a:hover {
+    background-color: #1f1fb4;
+}
+
+.listaDeLinks li a{
+    color: #FFFFFF;
+}
+
+.listaDeLinks li{
+    display: inline;
+    padding: 0 5%;
+}
+
+/*
+    1 - Inverta a cor de fundo e do texto do botão da NAVBAR
+    2 - Coloque a lista de links em formato de linha
+    3 - Coloque o background-color da nav com a cor do background-color anterior do botão.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     GRUPO FONTES
-*/
     body{
         font-family: 'Oswald', sans-serif;
     }
@@ -34,15 +100,12 @@ font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
     GRUPO FONTES
-*/
-
-/*
     GRUPO CORES
-*/
+
   
 body{
     background-color: #ffa70054;
-    /*background-color: rgba(0, 255, 0,0.55);*/
+    /*background-color: rgba(0, 255, 0,0.55);
 }
 
 a{
@@ -50,14 +113,14 @@ a{
     color: #ED145B;
 }
 
-/*
-    GRUPO CORES
-*/
 
-/*
+    GRUPO CORES
+
+
+
     PSEUDO CLASSES
 
-*/
+
 
 a:hover{
     color: #0000FF;
@@ -84,9 +147,7 @@ a{
     text-decoration: none; 
     color:red;
 }
-*/
-
-/* CSS NO FORM */
+ CSS NO FORM 
 
 form{
     font-size: 16px;
@@ -121,9 +182,9 @@ form{
         border: 2px double #ff0000;
     }
 
-/* CSS NO FORM */
+ CSS NO FORM 
 
- /* CSS TABLE */
+  CSS TABLE 
 
 table{
     border: 2px solid #000000;
@@ -147,4 +208,6 @@ table tr:hover{
 }
 
 
- /* CSS TABLE */
+  CSS TABLE */
+
+ 
