@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Serviços WEB</title>
-        <!-- CSS EXTERNO-->
+        <title>SERVIÇOS</title>
+
+        <!-- JS EXTERNO -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS EXTERNO -->
+
+        <!-- JS INTERNO NO HEAD -->
+        <script>
+
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
+
+        </script>
+        <!-- JS INTERNO NO HEAD -->
+
+        <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
-        <!-- CSS EXTERNO-->
-       
-    </head>
+        <!-- CSS EXTERNO -->
+        
+        <!-- FAVICON -->
+        <link rel="icon" href="./img/mail.png">
+        <!-- FAVICON -->
+        
+    </head> 
     <body>
+        
         <nav>
             <a href="#">Serviços WEB</a>
             <ul>
@@ -30,19 +48,19 @@
             </p>
             <a href="#servicos">Ver mais...</a>
         </header>
-        
-        <section id="#sobre">
+
+        <section id="sobre">
             <h2>Sobre</h2>
             <p>
-                A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o
-                intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao
-                longo de um ano de vida.
+                A empresa <small class="texto-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
                 Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
-            <a href="#contato">Contrate agora</a>
+            <a href="#contato">Contrate Agora</a>
         </section>
-        <section id="#servicos">
+
+        <section id="servicos">
             <h2>Serviços</h2>
+
 
             <table>
                 <thead>
@@ -54,23 +72,23 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Desenvolvido WEB</td>
-                        <td><img src="./img/desenvolvimento.jpg" alt="gadget" width="30%"></td>
-                        <td>Você poderá desenvolver páginas dinâmicas.</td>
+                        <td>Desenvolvimento Web</td>
+                        <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
+                        <td>Vcê poderá desenvolver páginas dinâmicas.</td>
                     </tr>
                     <tr>
                         <td>Mini-Cursos Remotos</td>
-                        <td><img src="./img/cursos.png" alt="linguagens de programação" width="30%"></td>
+                        <td><img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
                         <td>Cursos das mais diversas linguagens do mercado.</td>
                     </tr>
                     <tr>
-                        <td>WorkShops</td>
-                        <td><img src="./img/eventos.jpg" alt="Fone de ouvido" width="30%"></td>
+                        <td>Workshops</td>
+                        <td><img src="./img/eventos.jpg" alt="Headfones" width="30%"></td>
                         <td>Eventos com os mais renomados profissionais.</td>
                     </tr>
                     <tr>
                         <td>Segurança da Informação</td>
-                        <td><img src="./img/seguranca-info.png" alt="nuvem de palavras" width="30%"></td>
+                        <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
                         <td>Cuidar da segurança da sua empresa é a nossa missão.</td>
                     </tr>
                 </tbody>
@@ -83,127 +101,118 @@
 
 
 
+        </section>
+
         <section id="imagens">
             <h2>Imagens</h2>
-            <img src="./img/backbone.jpg" alt="Rede interligada" width="100%">
-            <img src="./img/cidade.jpg" alt="cidade" width="100%">
-            <img src="./img/icones.png" alt="icones" width="100%">
-            <img src="./img/internet.jpg" alt="internet" width="100%">
-            <img src="./img/rede.jpg" alt="grupamento de redes com fio" width="100%">
-            <img src="./img/comunicao.jpg" alt="rede neural interligada" width="100%">
+            <img src="./img/backbone.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/internet.jpg" alt="Rede interligada." width="100%">
+            <img src="./img/rede.jpg" alt="Rede de fios." width="100%">
+            <img src="./img/comunicao.jpg" alt="Rede Interligada com fios." width="100%">
         </section>
         
         <section id="contato">
+            
             <div>
                 <form action="index.html" method="GET">
                     <fieldset>
-                        <legend>CONTATO</legend>
+                        <legend>INFO CONTATO</legend>
                         <div>
                             <label for="nmClienteId">Nome</label>
                             <input type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome">
                         </div>
-
                         <div>
                             <label for="telClienteId">Telefone</label>
                             <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone">
                         </div>
-
                         <div>
-                            <label for="emailClienteId">E-mail</label>
-                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu e-mail">
+                            <label for="emailClienteId">Email</label>
+                            <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu email">
                         </div>
-
-                        <div>
-                            <input type="submit" value="Enviar">
-                            <input type="reset" value="Limpar">
+                         <div>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="LIMPAR">
                         </div>
-
-
                     </fieldset>
+                  
+                      
                 </form>
             </div>
-        </section>
-          
-        <h2>Fale Conosco</h2>
-            <div>
-                <img src="./img/tel.png" alt="telefone">
-                <p><a href="tel:11945627893">(11) 94562-7893</a></p>
-            </div>
 
-            <div>
-                <img src="./img/mail.png" alt="e-mail">
-                <p><a href="mailto:wallisonsp.santos@gmail.com">E-mail</a></p>
-            </div>
-        
+        </section>
         <footer>
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM95251</span></p>
+            <p>Desenvolvido por <span>PF0670</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
+        <!-- JS INTERNO NO BODY -->
         <script>
+            //console.log("Alô Mundo!")
             //Comentário de linha
-
             /*
-                Comentário de bloco
+                Comentário de BLOCO
             */
-            const elementoH1 = document.getElementById("logo-tit")
-            elementoH1.click(function(){
-
-                elementoH1.innerHTML = "EQUIPE NOTA 10"
-
-            }
-            )
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
 
         </script>
-       
+        <!-- JS INTERNO NO BODY -->
+
     </body>
+
 </html>
 
-<!--  
 
+
+    <!-- <h2>Fale Conosco</h2>
             <div>
-                <div>
-                    <form action="index.html" method="POST">
-                        <fieldset>
-                            <legend>LOGIN</legend>
-                            <div>
-                            <label for="nmUserId">Usuário</label>
-                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome de Usuário" required>
-                        </div>
-
-                        <div>
-                            <label for="userPassId">Senha</label>
-                            <input type="password" name="userPass" id="UserPassId" placeholder="Digite a senha" required>
-                        </div>
-                        <div>
-                            <input type="submit" value="LOGIN">
-                        </div>
-
-
-                        </fieldset>
-                    </form>
-                </div>
+                <img src="./img/tel.png" alt="Telefone">
+                <p><a href="tel:11987344534">(11) 98734-4534</a></p>
             </div>
-
-
-        </section>
-
+            <div>
+                <img src="./img/mail.png" alt="Envelope">
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div>
+        
+         <table border="1">
+                <tr>
+                    <td>ID</td>                <td>FABRICANTE</td>
+                    <td>MODELO</td>
+                </tr>
+                <tr>
+                    <td colspan="2">1</td>
+                    <td>GM - Chevette</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>Ford</td>
+                    <td>Ka</td>
+                </tr>
+                <tr>
+                    <td>3 - Fiat</td>
+                    <td>Uno</td>
+                </tr>
+               
+            </table>
         
             <div>
-                <img src="./img/desenvolvimento.jpg" alt="gadget" width="30%">
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
             </div>
 
             <div>
-                <img src="./img/cursos.png" alt="linguagens de programação" width="30%">
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
             </div>
 
             <div>
-                <img src="./img/eventos.jpg" alt="Fone de ouvido" width="30%">
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
             </div>
 
             <div>
-                <img src="./img/seguranca-info.png" alt="nuvem de palavras" width="30%">
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
             </div>
-
+        
         -->
+        
+
