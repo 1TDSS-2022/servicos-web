@@ -68,45 +68,22 @@
         <section id="servicos">
             <h2>Serviços</h2>
 
-            <table>
-                <thead> 
-                    <tr>
-                        <th>Nome Serviço</th>
-                        <th>Logo</th>
-                        <th>Info</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
-                        <td>Você poderá desenvolver páginas dinâmicas.</td>
-                    </tr>
-                    <tr>
-                        <td>Mini-Cursos Remotos</td>
-                        <td> <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
-                        <td>Cursos das mais diversas linguagens do mercado.</td>
-                    </tr>
-                    <tr>
-                        <td>Workshops</td>
-                        <td><img src="./img/eventos.jpg" alt="Headfones" width="30%"></td>
-                        <td>Eventos com os mais renomados profissionais.</td>
-                    </tr>
-                    <tr>
-                        <td>Segurança da Informação</td>
-                        <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
-                        <td>Cuidar da segurança da sua empresa é a nossa missão.</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">Equipe de PONTA/SA</td>
-                    </tr>
-                </tfoot>
-                
-                
-            </table>
-
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+                <p>Desenvolvimento Web</p>
+            </div>
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+                <p>Mini-Cursos Remotos</p>
+            </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+                <p>Workshops</p>
+            </div>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+                <p>Segurança da Informação</p>
+            </div>
         </section>
 
         <section id="imagens">
@@ -154,21 +131,18 @@
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
-        <script>
-            //console.log("Olá Mundo!")
-            //Comentario de Linha
+          <!-- JS INTERNO NO BODY -->
+          <script>
+            //console.log("Alô Mundo!")
+            //Comentário de linha
             /*
-             Coomentario de Bloco
-             */
-            
-             const elementoH1 = document.getElementById("logo-tit")
+                Comentário de BLOCO
+            */
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
 
-             elementoH1.click(function(){
-
-                elementoH1.innerHTML = "EQUIPE NOTA 10"
-             })
-            
         </script>
+        <!-- JS INTERNO NO BODY -->
+
 
     </body>
 </html>

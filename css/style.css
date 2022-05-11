@@ -1,8 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
+nav{
+    margin-top: 5%;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: #0505b5;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 5px;
+
+}
+
+nav > a:hover {
+    background-color: #3434a8;
+}
+.listaDeLinks li a{
+    color: #FFFFFF;
+}
+
+.listaDeLinks li{
+    display: inline;
+    padding: 0 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     GRUPO FONTES
-*/
+
     body{
         font-family: 'Oswald', sans-serif;
     }
@@ -29,20 +86,20 @@
         font-family: 'Asap', sans-serif;
     }
 
-/*
+
 font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
     GRUPO FONTES
-*/
 
-/*
+
+
     GRUPO CORES
-*/
+
   
 body{
     background-color: #ffa70054;
-    /*background-color: rgba(0, 255, 0,0.55);*/
+    /*background-color: rgba(0, 255, 0,0.55);
 }
 
 a{
@@ -50,14 +107,14 @@ a{
     color: #ED145B;
 }
 
-/*
-    GRUPO CORES
-*/
 
-/*
+    GRUPO CORES
+
+
+
     PSEUDO CLASSES
 
-*/
+
 
 a:hover{
     color: #0000FF;
@@ -86,7 +143,7 @@ a{
 }
 */
 
-/* CSS NO FORM */
+/* CSS NO FORM 
 
 form{
     font-size: 16px;
@@ -123,7 +180,7 @@ form{
 
 /* CSS NO FORM */
 
-/*  CSS TABLE */
+/*  CSS TABLE 
 
 table{
     border: 2px solid #000000;
