@@ -1,8 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
+nav{
+    margin-top: 5%;
+}
+nav > a {
+    text-decoration: none;
+    background-color: #0505b5;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+nav > a:hover {
+    background-color: #1f1fb4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     GRUPO FONTES
 */
+    /*
     body{
         font-family: 'Oswald', sans-serif;
     }
@@ -39,12 +79,12 @@ font-family: 'Oswald', sans-serif;
 /*
     GRUPO CORES
 */
-  
+/*
 body{
     background-color: #ffa70054;
-    /*background-color: rgba(0, 255, 0,0.55);*/
-}
+    /*background-color: rgba(0, 255, 0,0.55);}*/
 
+/*
 a{
     text-decoration: none;
     color: #ED145B;
@@ -58,7 +98,7 @@ a{
     PSEUDO CLASSES
 
 */
-
+/*
 a:hover{
     color: #0000FF;
     border: #ff0000 solid 2px;
@@ -87,7 +127,7 @@ a{
 */
 
 /* CSS NO FORM */
-
+/*
 form{
     font-size: 16px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -120,11 +160,11 @@ form{
     form fieldset{
         border: 2px double #ff0000;
     }
-
+    
 /* CSS NO FORM */
 
  /* CSS TABLE */
-
+/*
 table{
     border: 2px solid #000000;
     border-collapse: collapse;

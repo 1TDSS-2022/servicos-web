@@ -24,9 +24,9 @@ var frutas = ['laranja', 'banana', 'maçã','uva']
 // }
 
 //Iteração com forin
-// for (let indice in frutas) {
-//     console.log("ITENS DO ARRAY FRUTAS : " + frutas[indice])
-// }
+ //for (let indice in frutas) {
+     //console.log("ITENS DO ARRAY FRUTAS : " + frutas[indice])
+//}
 
 //Seleçao de elemento com notação HTML
 //const elementoH1 = document.getElementById("logo-tit")
