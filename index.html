@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SERVIÇOS</title>
-
-             <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet"> -->
-<!-- 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
-        </style> -->
+        <!-- JS EXTERNO -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS EXTERNO -->
+        <!-- JS INTERNO NO HEAD -->
+        <script>
+            console.log("MSG ENVIADA ATRAVÉS DO HEAD!")
+        </script>
+        <!-- JS INTERNO NO HEAD -->
         <!-- CSS EXTERNO -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- CSS EXTERNO -->
@@ -31,7 +31,7 @@
             </ul>
         </nav>
         <header id="topo">
-            <h1 id = "logo-tit">Equipe de Ponta</h1>
+            <h1 id="logo-tit">Equipe de Ponta</h1>
             <p>
                 Somos uma equipe da área de <span class="texto-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
                 <span class="texto-css">Atuamos</span> nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
@@ -49,42 +49,22 @@
         </section>
         <section id="servicos">
             <h2>Serviços</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome serviço</th>
-                        <th>Logo</th>
-                        <th>Info</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Desenvolvimento Web</td>
-                        <td><img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%"></td>
-                        <td>Você poderá desenvolver páginas dinamicas.</td>
-                    </tr>
-                    <tr>
-                        <td>Mini Cursos</td>
-                        <td><img src="./img/cursos.png" alt="Linguagens de Programação." width="30%"></td>
-                        <td>Cursos das mais diversas linguagens do mercado.</td>
-                    </tr>
-                    <tr>
-                        <td>WorkShops</td>
-                        <td><img src="./img/eventos.jpg" alt="Headfones" width="30%"></td>
-                        <td>Eventos com os mais renomados profissionais.</td>
-                    </tr>
-                    <tr>
-                        <td>Segurança da Informação</td>
-                        <td><img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%"></td>
-                        <td>Cuidar da segurança da informação é importante.</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">Equipe de PONTA SA</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+                <p>Desenvolvimento Web</p>
+            </div>
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+                <p>Mini-Cursos Remotos</p>
+            </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+                <p>Workshops</p>
+            </div>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+                <p>Segurança da Informação</p>
+            </div>
         </section>
         <section id="imagens">
             <h2>Imagens</h2>
@@ -122,26 +102,19 @@
         </section>
         <footer>
             <a href="#topo">Voltar</a>
-            <p>Desenvolvido por <span>RM93090</span></p>
+            <p>Desenvolvido por <span>PF0670</span></p>
             <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
-       
+        <!-- JS INTERNO NO BODY -->
         <script>
             //console.log("Alô Mundo!")
-            //Comentário de de lInha
-
+            //Comentário de linha
             /*
-                COmentário de blocos
+                Comentário de BLOCO
             */
-
-            const elementoH1 = document.getElementById("logo-tit")
-
-            elementoH1.click(function(){
-
-                elementoH1.innerHTML = "EQUIPE NOTA 10"
-            })
+            console.log("MSG ENVIADA ATRAVÉS DO BODY!")
         </script>
-
+        <!-- JS INTERNO NO BODY -->
     </body>
 </html>
     <!-- <h2>Fale Conosco</h2>
@@ -152,4 +125,36 @@
             <div>
                 <img src="./img/mail.png" alt="Envelope">
                 <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
-            </div> -->
+            </div>
+         <table border="1">
+                <tr>
+                    <td>ID</td>                <td>FABRICANTE</td>
+                    <td>MODELO</td>
+                </tr>
+                <tr>
+                    <td colspan="2">1</td>
+                    <td>GM - Chevette</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>Ford</td>
+                    <td>Ka</td>
+                </tr>
+                <tr>
+                    <td>3 - Fiat</td>
+                    <td>Uno</td>
+                </tr>
+            </table>
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="gadgets" width="30%">
+            </div>
+            <div>
+                <img src="./img/cursos.png" alt="Linguagens de Programação." width="30%">
+            </div>
+            <div>
+                <img src="./img/eventos.jpg" alt="Headfones" width="30%">
+            </div>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%">
+            </div>
+        -->

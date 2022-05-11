@@ -1,142 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
-
+nav{
+    margin-top: 5%;
+}
+nav > a {
+    text-decoration: none;
+    background-color: #0505b5;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+nav > a:hover {
+    background-color: #1f1fb4;
+}
 /*
     GRUPO FONTES
-*/
     body{
         font-family: 'Oswald', sans-serif;
     }
-
     #topo h1 {
         font-family: 'Nunito', sans-serif;
         border: 2px solid #000000;
         text-align: center;
     } 
-    #topo p {
+    #topo p { 
         border: 2px solid #000000;
         letter-spacing: 2px;
         font-style: italic;
     }
-
     #topo a{
         border: 2px solid #000000;
     }
-
     .texto-css{
         color: #ff0000;
         font-weight: 700;
         text-decoration: underline;
         font-family: 'Asap', sans-serif;
     }
-
 /*
 font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
     GRUPO FONTES
-*/
-
-/*
     GRUPO CORES
-*/
   
 body{
     background-color: #ffa70054;
-    /*background-color: rgba(0, 255, 0,0.55);*/
+    /*background-color: rgba(0, 255, 0,0.55);
 }
-
 a{
     text-decoration: none;
     color: #ED145B;
 }
-
-/*
     GRUPO CORES
-*/
-
-/*
     PSEUDO CLASSES
-
-*/
-
 a:hover{
     color: #0000FF;
     border: #ff0000 solid 2px;
 }
-
 /*
     PSEUDO CLASSES
 */
-
-
-
 /*
     Comentário em CSS
 */
-
 /*
 ul{
     list-style: square;
     color:red;
 }
-
 a{
     text-decoration: none; 
     color:red;
 }
-*/
-/* CSS NO FORM */
-
+ CSS NO FORM 
+form{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
     form input{
         display: block;
         margin: 1% 0;
-        width: 100%;
         border-radius: 5px;
         border: solid 2px #ccc;
     }
-
     form input[type=text],input[type=tel],input[type=email]{
         height: 50px;
-        
         width: 100%;
         font-size: 1.5em;
     }
-
     form input[type=submit],input[type=reset]{
-        height: 25px;
+        display: inline;
+        height: 30px;
         max-width: 40%;
         width: 100%;
         margin: 0 0 0 5%;
         background-color: #0000FF;
         color: #FFFFFF;
-        font-size: 1.1em
-
+        font-size: 1.1em;
     }
-
     form fieldset{
-        border: 2px #ff0000;
+        border: 2px double #ff0000;
     }
-/* CSS NO FORM */
-
-/* CSS TABLE */
-
+ CSS NO FORM 
+  CSS TABLE 
 table{
     border: 2px solid #000000;
     border-collapse: collapse;
 }
-
 table td,th{
     border: 2px solid #000000;
 }
-
-table tr :nth-child(odd) {
-    background-color: #3d2b2b;
-    }
-
-table tr :nth-child(even) {
-    background-color: #cccc;
+table tr:nth-child(odd){
+    background-color: #756f6f;
 }
-
-table tr :hover{
-        background-color: #ff0000;
+table tr:nth-child(even){
+    background-color: #d4bcbc;
 }
+table tr:hover{
+    background-color: #dd8686;
+}
+  CSS TABLE */
