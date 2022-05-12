@@ -1,52 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
-nav ul{
-    list-style: none;
+nav{
+    margin-top: 5%;
 }
 
-nav ul li{
-    display: inline-block;
-}
-
-nav a{
-    font-family: 'Nunito', sans-serif;
+nav > a{
     text-decoration: none;
-    background-color: #040288;
-    width: 100%;
-    display: inline-block;
-    padding: 10% 0;
-    text-align: center;
+    background-color: #0505b5;
     color: #fff;
-    font-size: 34px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px;
+    border-radius: 5px;
 }
 
-table{
-    border: 2px solid #000000;
-
+nav > a:hover{
+    background-color: #0505ff;
 }
 
-table td, th{
-    border: 2px solid #000000;
-    
-}
-
-table tr:nth-child(odd){
-    border: 2px solid #000000;
-    
-}
-
-table tr:nth-child(even){
-    border: 2px solid #c2c2c2;
-    
-}
-
-table tr:hover{
-    border: 2px solid #e62193;
-    
-}
