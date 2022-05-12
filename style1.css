@@ -1,0 +1,32 @@
+.ligar{
+    margin-right: 8px;
+    background-color: rgb(194, 235, 248);
+    font-size: 25px;
+    border-radius: 8%;
+    padding: 5px 30px ;
+    letter-spacing: 3px;
+    font-weight: 100;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.712);
+}
+
+.ligar:hover{
+    box-shadow: 2px 3.5px 9px rgba(0, 0, 0, 0.945);
+}
+
+.desligar:hover{
+    box-shadow: 2px 3.5px 9px rgba(0, 0, 0, 0.945);
+}
+
+.desligar{
+    margin-right: 8px;
+    background-color: rgb(194, 235, 248);
+    font-size: 25px;
+    border-radius: 8%;
+    padding: 5px 30px ;
+    letter-spacing: 3px;
+    font-weight: 100;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.712);
+    
+    
+
+}
