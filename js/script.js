@@ -1,4 +1,47 @@
-console.log("MSG ENVIADA NO ARQUIVO EXTERNO!")
+
+    const btnOn = document.querySelector(".ButtonLiga")
+
+    btnOn.addEventListener('click', function(){
+        document.querySelector("img").src =="./img/pic_bulbon.gif"
+    })
+
+    
+    const btnOff = document.querySelector(".ButtonDesliga")
+
+    btnOff.addEventListener('click', function(){
+        document.querySelector("img").src =="./img/pic_bulboff.gif"
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*console.log("MSG ENVIADA NO ARQUIVO EXTERNO!")
 //Utilizado para declarações globais [ var ]
 //Quando se utiliza o var estamos dizendo ao interpretador
 // que o escopo desta variável será global.
