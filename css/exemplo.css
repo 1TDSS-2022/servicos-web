@@ -1,0 +1,16 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border-top: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-style: solid;
+
+}
+
+.cores{
+    background-color: red;
+
+}
+
