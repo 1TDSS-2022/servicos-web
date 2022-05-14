@@ -1,0 +1,30 @@
+
+/*
+    Estrutural
+*/
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-top: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-top-color: black ;
+    border-top-color: transparent;
+    border-style: solid;    
+
+}
+
+/*
+    Estrutural
+*/
+/*
+    cores
+*/
+
+.cores{
+    border-top-color: transparent;
+    border-top-color: blue;
+
+}
