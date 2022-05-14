@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Nunito:wght@700&family=Oswald:wght@700&display=swap');
 
-
+/* 
 nav{
     margin-top: 5%;
     background-color: #0505b5;
@@ -39,7 +39,7 @@ nav > a:hover {
 
 nav ul li{
     color: #FFFFFF;
-}
+} */
 
 /*
     1 - Inverta a cor de fundo e do texto do botão da NAVBAR
@@ -51,8 +51,30 @@ nav ul li{
 
 
 
+/*QUADRO DE CORES */
+
+/* ESTRUTURAL */
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-top:2px;
+    border-right: 2px;
+    border-bottom:2px;
+    border-left:2px;
+    border-style:solid;
+    
+}
 
 
+
+.cores{
+
+    /* border-top-color: transparent;
+    border-bottom-color: blue; */
+
+    background-color: brown;
+}
 
 
 
